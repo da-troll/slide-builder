@@ -1,6 +1,6 @@
 {
   "project_name": "Slide Builder",
-  "description": "Markdown-to-deck composer with a six-template gallery and a single-file HTML export. Type markdown on the left, watch the slide deck render live on the right, ship the resulting deck as one portable .html file.",
+  "description": "Markdown-to-deck composer with the 13 canonical household style presets and a single-file HTML export. Type markdown on the left, watch the deck render live on the right, ship the resulting deck as one portable .html file.",
   "tech_stack": [
     "React",
     "TypeScript",
@@ -11,12 +11,13 @@
   "build_time_hours": 2,
   "status": "complete",
   "features": [
-    "Six hand-built slide templates: Minimalist, Terminal, Magazine, Gradient, Paper grid, and Council Signal (household house style)",
+    "13 canonical style presets aligned with the content-to-slides skill: Bold Signal, Electric Studio, Creative Voltage, Dark Botanical, Notebook Tabs, Pastel Geometry, Split Pastel, Vintage Editorial, Simployer, Neon Cyber, Terminal Green, Swiss Modern, Paper & Ink",
+    "Categorised gallery (Dark / Light / Specialty) with named font pairings — Google Fonts + Fontshare loaded on demand inside the exported deck",
+    "Viewport-locked output — clamp() typography, overflow: hidden, height breakpoints at 700/600/500px so decks fit phones, tablets, and 1920×1080 alike",
     "Live iframe preview with keyboard navigation (arrow keys, click left/right edge) and page counter",
-    "Markdown editor with --- slide breaks and # / ## titles — matches the existing content-to-slides skill convention",
+    "Markdown editor with --- slide breaks and # / ## titles — matches the existing content-to-slides convention",
     "Single-file portable HTML export — embedded CSS + JS, zero dependencies, works offline",
-    "Pre-seeded with a real Wilson household excerpt so the gallery preview is meaningful on first load",
-    "localStorage persistence for markdown, title, and active template"
+    "Pre-seeded with a real Wilson household excerpt; localStorage persistence for markdown, title, and active template"
   ],
   "live_url": "https://mvp.trollefsen.com/2026-05-10-slide-builder/",
   "github_url": "https://github.com/da-troll/slide-builder",

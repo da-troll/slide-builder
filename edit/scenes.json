@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-10T21:06:14+00:00",
+  "live_url": "https://mvp.trollefsen.com/2026-05-10-slide-builder/",
+  "estimated_duration_s": 46.0,
+  "scenes": [
+    {
+      "name": "Land on Slide Builder",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Let the viewer take in the two-pane layout: markdown editor on the left, live preview on the right, with templates across the top."
+    },
+    {
+      "name": "Name the deck",
+      "action": "fill",
+      "selector": "input[placeholder=\"Untitled Deck\"]",
+      "text": "ClawDash Launch Deck",
+      "ms_after": 3500,
+      "note": "Replace the generic title to show the deck is editable and branded instantly."
+    },
+    {
+      "name": "Observe updated title",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Notice the deck title field is now personalized, framing the presentation before we change the content."
+    },
+    {
+      "name": "Rewrite markdown with concise demo content",
+      "action": "fill",
+      "selector": "textarea[placeholder=\"# Slide 1 title\nBody here\u2026\n\n---\n\n# Slide 2 title\n- bullet\n- bullet\"]",
+      "text": "# ClawDash\nIncident response for modern ops teams.\n\n---\n\n## Why teams switch\n- Faster triage\n- Shared timelines\n- Clear postmortems\n\n---\n\n## What ships\n- Live alerts dashboard\n- Runbook links\n- Portable HTML deck export",
+      "ms_after": 4500,
+      "note": "Swap the seeded markdown for a clean three-slide product story so the preview refresh demonstrates the core workflow."
+    },
+    {
+      "name": "Observe live preview refresh",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Notice the preview updates from markdown automatically without any save button."
+    },
+    {
+      "name": "Try the Terminal template",
+      "action": "click",
+      "selector": "button.card:nth-of-type(2)",
+      "ms_after": 3500,
+      "note": "Switch to a dramatically different theme to show that the same content can be restyled instantly."
+    },
+    {
+      "name": "Observe Terminal styling",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Look for the phosphor-green terminal aesthetic taking over the preview while the markdown stays unchanged."
+    },
+    {
+      "name": "Try the Magazine template",
+      "action": "click",
+      "selector": "button.card:nth-of-type(3)",
+      "ms_after": 3500,
+      "note": "Show a second visual direction to emphasize the six-template gallery."
+    },
+    {
+      "name": "Observe Magazine styling",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Notice the editorial serif treatment and how the deck takes on a press-ready feel."
+    },
+    {
+      "name": "Return to Council Signal",
+      "action": "click",
+      "selector": "button.card.active",
+      "ms_after": 3500,
+      "note": "Settle back on the household house-style theme for the final hero view."
+    },
+    {
+      "name": "Observe house style preview",
+      "action": "wait",
+      "ms": 4000,
+      "note": "The viewer should notice the ember-accented Council Signal theme re-establishing the polished final look."
+    },
+    {
+      "name": "Hover export button",
+      "action": "hover",
+      "selector": "button.primary",
+      "ms_after": 3500,
+      "note": "Call attention to the one-file HTML export without triggering a download during the demo."
+    }
+  ]
+}

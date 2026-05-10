@@ -1,0 +1,5 @@
+Turning rough markdown into a deck usually means rewriting the same content inside presentation software. Slide Builder skips that completely: write on the left, and the deck renders live on the right. It keeps the format dead simple too — slide breaks with three dashes, titles with # or ## — so if you already have content in the household’s existing slide convention, it drops straight in.
+
+What makes it useful is that the styling decision is fast instead of precious. You can move the same words through six hand-built looks, from Minimalist and Terminal to Council Signal, and see immediately which one fits. Then when it’s ready, export the whole thing as a single HTML file with the CSS and JavaScript baked in. No dependencies, no hosting requirements, no “works on my machine” problem — just send the file and the deck opens offline.
+
+It even keeps your draft, title, and chosen template in localStorage, so you can come back without losing the thread. Slide Builder turns “I have the content” into “I can share the deck” in one pass.

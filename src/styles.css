@@ -114,10 +114,26 @@ body {
 }
 .gallery-toggle:hover { color: var(--fg); }
 
+.cats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+@media (max-width: 1100px) {
+  .cats { grid-template-columns: 1fr; }
+}
+.cat-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--violet);
+  margin-bottom: 6px;
+  font-weight: 700;
+}
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 8px;
 }
 .card {
   display: flex;

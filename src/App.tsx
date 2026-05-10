@@ -1,7 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { parseDeck } from './parse';
-import { TEMPLATES, TEMPLATES_BY_ID } from './templates';
+import { TEMPLATES, TEMPLATES_BY_ID, renderDeck, type Template } from './templates';
 import { SEED_MARKDOWN } from './seed';
+
+const DEFAULT_TEMPLATE = 'simployer';
+const CATEGORIES: Template['category'][] = ['Dark', 'Light', 'Specialty'];
 
 const STORAGE_MD = 'slide-builder:md';
 const STORAGE_TEMPLATE = 'slide-builder:template';
@@ -9,9 +12,11 @@ const STORAGE_TITLE = 'slide-builder:title';
 
 export default function App() {
   const [md, setMd] = useState<string>(() => localStorage.getItem(STORAGE_MD) ?? SEED_MARKDOWN);
-  const [templateId, setTemplateId] = useState<string>(
-    () => localStorage.getItem(STORAGE_TEMPLATE) ?? 'council'
-  );
+  const [templateId, setTemplateId] = useState<string>(() => {
+    const stored = localStorage.getItem(STORAGE_TEMPLATE);
+    if (stored && TEMPLATES_BY_ID[stored]) return stored;
+    return DEFAULT_TEMPLATE;
+  });
   const [deckTitle, setDeckTitle] = useState<string>(
     () => localStorage.getItem(STORAGE_TITLE) ?? 'Untitled Deck'
   );
@@ -25,7 +30,7 @@ export default function App() {
 
   const slides = useMemo(() => parseDeck(md), [md]);
   const template = TEMPLATES_BY_ID[templateId] ?? TEMPLATES[0];
-  const html = useMemo(() => template.render(slides, deckTitle), [template, slides, deckTitle]);
+  const html = useMemo(() => renderDeck(template, slides, deckTitle), [template, slides, deckTitle]);
 
   useEffect(() => {
     const frame = iframeRef.current;
@@ -102,23 +107,30 @@ export default function App() {
           {galleryOpen ? '▾' : '▸'} Templates
         </button>
         {galleryOpen && (
-          <div className="cards">
-            {TEMPLATES.map((t) => (
-              <button
-                key={t.id}
-                className={`card ${t.id === templateId ? 'active' : ''}`}
-                onClick={() => setTemplateId(t.id)}
-              >
-                <div className="card-swatch">
-                  {t.swatch.map((c) => (
-                    <span key={c} style={{ background: c }} />
+          <div className="cats">
+            {CATEGORIES.map((cat) => (
+              <div key={cat} className="cat">
+                <div className="cat-label">{cat}</div>
+                <div className="cards">
+                  {TEMPLATES.filter((t) => t.category === cat).map((t) => (
+                    <button
+                      key={t.id}
+                      className={`card ${t.id === templateId ? 'active' : ''}`}
+                      onClick={() => setTemplateId(t.id)}
+                    >
+                      <div className="card-swatch">
+                        {t.swatch.map((c, k) => (
+                          <span key={k} style={{ background: c }} />
+                        ))}
+                      </div>
+                      <div className="card-meta">
+                        <div className="card-label">{t.label}</div>
+                        <div className="card-desc">{t.description}</div>
+                      </div>
+                    </button>
                   ))}
                 </div>
-                <div className="card-meta">
-                  <div className="card-label">{t.label}</div>
-                  <div className="card-desc">{t.description}</div>
-                </div>
-              </button>
+              </div>
             ))}
           </div>
         )}

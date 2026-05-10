@@ -1,0 +1,78 @@
+{
+  "duration_s": 48.96,
+  "plan_source": "cached:edit/scenes.json",
+  "scenes": [
+    {
+      "name": "Land on Slide Builder",
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "note": "Let the viewer take in the two-pane layout: markdown editor on the left, live preview on the right, with templates across the top."
+    },
+    {
+      "name": "Name the deck",
+      "start_s": 4.0,
+      "end_s": 8.6,
+      "note": "Replace the generic title to show the deck is editable and branded instantly."
+    },
+    {
+      "name": "Observe updated title",
+      "start_s": 8.6,
+      "end_s": 12.6,
+      "note": "Notice the deck title field is now personalized, framing the presentation before we change the content."
+    },
+    {
+      "name": "Rewrite markdown with concise demo content",
+      "start_s": 12.6,
+      "end_s": 29.145000000000003,
+      "note": "Swap the seeded markdown for a clean three-slide product story so the preview refresh demonstrates the core workflow."
+    },
+    {
+      "name": "Observe live preview refresh",
+      "start_s": 29.145000000000003,
+      "end_s": 33.145,
+      "note": "Notice the preview updates from markdown automatically without any save button."
+    },
+    {
+      "name": "Try the Terminal template",
+      "start_s": 33.145,
+      "end_s": 36.645,
+      "note": "Switch to a dramatically different theme to show that the same content can be restyled instantly."
+    },
+    {
+      "name": "Observe Terminal styling",
+      "start_s": 36.645,
+      "end_s": 40.645,
+      "note": "Look for the phosphor-green terminal aesthetic taking over the preview while the markdown stays unchanged."
+    },
+    {
+      "name": "Try the Magazine template",
+      "start_s": 40.645,
+      "end_s": 44.145,
+      "note": "Show a second visual direction to emphasize the six-template gallery."
+    },
+    {
+      "name": "Observe Magazine styling",
+      "start_s": 44.145,
+      "end_s": 48.145,
+      "note": "Notice the editorial serif treatment and how the deck takes on a press-ready feel."
+    },
+    {
+      "name": "Return to Council Signal",
+      "start_s": 48.145,
+      "end_s": 51.645,
+      "note": "Settle back on the household house-style theme for the final hero view."
+    },
+    {
+      "name": "Observe house style preview",
+      "start_s": 51.645,
+      "end_s": 55.645,
+      "note": "The viewer should notice the ember-accented Council Signal theme re-establishing the polished final look."
+    },
+    {
+      "name": "Hover export button",
+      "start_s": 55.645,
+      "end_s": 59.145,
+      "note": "Call attention to the one-file HTML export without triggering a download during the demo."
+    }
+  ]
+}
