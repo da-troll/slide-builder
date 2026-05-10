@@ -1,78 +1,60 @@
 {
-  "duration_s": 48.96,
+  "duration_s": 37.0,
   "plan_source": "cached:edit/scenes.json",
   "scenes": [
     {
-      "name": "Land on Slide Builder",
+      "name": "Land on app",
       "start_s": 0.0,
       "end_s": 4.0,
-      "note": "Let the viewer take in the two-pane layout: markdown editor on the left, live preview on the right, with templates across the top."
+      "note": "Let the viewer take in the split layout: title bar, template gallery, markdown editor, and live preview."
+    },
+    {
+      "name": "Focus deck title",
+      "start_s": 4.0,
+      "end_s": 7.5,
+      "note": "Click into the deck title field to start the primary workflow."
+    },
+    {
+      "name": "Notice title field ready",
+      "start_s": 7.5,
+      "end_s": 11.5,
+      "note": "Notice the title input is active and ready for a custom deck name."
     },
     {
       "name": "Name the deck",
-      "start_s": 4.0,
-      "end_s": 8.6,
-      "note": "Replace the generic title to show the deck is editable and branded instantly."
+      "start_s": 11.5,
+      "end_s": 16.21,
+      "note": "Give the deck a clear product-style title using a household product name."
     },
     {
-      "name": "Observe updated title",
-      "start_s": 8.6,
-      "end_s": 12.6,
-      "note": "Notice the deck title field is now personalized, framing the presentation before we change the content."
+      "name": "Notice title update",
+      "start_s": 16.21,
+      "end_s": 20.21,
+      "note": "Notice the top bar now reflects the new deck title."
     },
     {
-      "name": "Rewrite markdown with concise demo content",
-      "start_s": 12.6,
-      "end_s": 29.145000000000003,
-      "note": "Swap the seeded markdown for a clean three-slide product story so the preview refresh demonstrates the core workflow."
+      "name": "Focus markdown editor",
+      "start_s": 20.21,
+      "end_s": 23.71,
+      "note": "Move into the markdown composer where the deck content is authored."
     },
     {
-      "name": "Observe live preview refresh",
-      "start_s": 29.145000000000003,
-      "end_s": 33.145,
-      "note": "Notice the preview updates from markdown automatically without any save button."
+      "name": "Notice editor caret",
+      "start_s": 23.71,
+      "end_s": 27.71,
+      "note": "Notice the editor is active and the seeded content is ready to be replaced."
     },
     {
-      "name": "Try the Terminal template",
-      "start_s": 33.145,
-      "end_s": 36.645,
-      "note": "Switch to a dramatically different theme to show that the same content can be restyled instantly."
+      "name": "Replace markdown with product deck",
+      "start_s": 27.71,
+      "end_s": 58.44,
+      "note": "Paste a concise 6-slide story so the live preview updates into a clear product narrative."
     },
     {
-      "name": "Observe Terminal styling",
-      "start_s": 36.645,
-      "end_s": 40.645,
-      "note": "Look for the phosphor-green terminal aesthetic taking over the preview while the markdown stays unchanged."
-    },
-    {
-      "name": "Try the Magazine template",
-      "start_s": 40.645,
-      "end_s": 44.145,
-      "note": "Show a second visual direction to emphasize the six-template gallery."
-    },
-    {
-      "name": "Observe Magazine styling",
-      "start_s": 44.145,
-      "end_s": 48.145,
-      "note": "Notice the editorial serif treatment and how the deck takes on a press-ready feel."
-    },
-    {
-      "name": "Return to Council Signal",
-      "start_s": 48.145,
-      "end_s": 51.645,
-      "note": "Settle back on the household house-style theme for the final hero view."
-    },
-    {
-      "name": "Observe house style preview",
-      "start_s": 51.645,
-      "end_s": 55.645,
-      "note": "The viewer should notice the ember-accented Council Signal theme re-establishing the polished final look."
-    },
-    {
-      "name": "Hover export button",
-      "start_s": 55.645,
-      "end_s": 59.145,
-      "note": "Call attention to the one-file HTML export without triggering a download during the demo."
+      "name": "Notice live preview refresh",
+      "start_s": 58.44,
+      "end_s": 62.44,
+      "note": "Notice the preview has re-rendered from the markdown automatically, showing the first slide of the new deck."
     }
   ]
 }

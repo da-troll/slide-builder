@@ -1,6 +1,6 @@
 {
   "project_name": "Slide Builder",
-  "description": "Markdown-to-deck composer with the 13 canonical household style presets and a single-file HTML export. Type markdown on the left, watch the deck render live on the right, ship the resulting deck as one portable .html file.",
+  "description": "Markdown-to-deck composer with 19 style presets (6 original house + 13 canonical content-to-slides) and a single-file HTML export. Type markdown on the left, watch the deck render live on the right, ship the resulting deck as one portable .html file.",
   "tech_stack": [
     "React",
     "TypeScript",
@@ -11,7 +11,7 @@
   "build_time_hours": 2,
   "status": "complete",
   "features": [
-    "13 canonical style presets aligned with the content-to-slides skill: Bold Signal, Electric Studio, Creative Voltage, Dark Botanical, Notebook Tabs, Pastel Geometry, Split Pastel, Vintage Editorial, Simployer, Neon Cyber, Terminal Green, Swiss Modern, Paper & Ink",
+    "19 style presets across four categories — 6 original house templates (Minimalist, Terminal, Magazine, Gradient, Paper, Council Signal) plus the 13 canonical content-to-slides presets (Bold Signal, Electric Studio, Creative Voltage, Dark Botanical, Notebook Tabs, Pastel Geometry, Split Pastel, Vintage Editorial, Simployer, Neon Cyber, Terminal Green, Swiss Modern, Paper & Ink)",
     "Categorised gallery (Dark / Light / Specialty) with named font pairings — Google Fonts + Fontshare loaded on demand inside the exported deck",
     "Viewport-locked output — clamp() typography, overflow: hidden, height breakpoints at 700/600/500px so decks fit phones, tablets, and 1920×1080 alike",
     "Live iframe preview with keyboard navigation (arrow keys, click left/right edge) and page counter",

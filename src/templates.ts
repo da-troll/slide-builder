@@ -5,7 +5,7 @@ export interface Template {
   id: string;
   label: string;
   description: string;
-  category: 'Dark' | 'Light' | 'Specialty';
+  category: 'House' | 'Dark' | 'Light' | 'Specialty';
   swatch: [string, string, string];
   /** Google/Fontshare font link tags (full <link rel=…> markup, no surrounding script). */
   fontLinks: string;
@@ -513,7 +513,138 @@ const T_PAPER_INK: Template = {
   slideDecor: (i, n) => `<div class="decor rule">Folio ${String(i + 1).padStart(2, '0')} / ${String(n).padStart(2, '0')}</div>`,
 };
 
+// --- ORIGINAL HOUSE TEMPLATES (v1) ---
+
+const H_MINIMALIST: Template = {
+  id: 'house-minimalist',
+  label: 'Minimalist (v1)',
+  description: 'Quiet sans-serif on warm paper. The original default. Reads at any size.',
+  category: 'House',
+  swatch: ['#fafaf7', '#191717', '#c46934'],
+  fontLinks: '',
+  css: `
+    body{background:#fafaf7;color:#191717;font-family:system-ui,-apple-system,sans-serif}
+    .slide-content{justify-content:flex-end;padding-bottom:clamp(2.5rem,7vw,7rem)}
+    .slide.cover .slide-title{font-weight:700;max-width:80%}
+    .slide.content .slide-title{font-weight:600;border-bottom:2px solid #c46934;padding-bottom:.3em;align-self:flex-start;display:inline-block}
+    .slide-body{color:#3a3636;max-width:80%}
+    code{background:#ece9e2}pre{background:#ece9e2;color:#191717}
+    .pager{color:#c46934}
+    a{color:#c46934;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+  `,
+};
+
+const H_TERMINAL: Template = {
+  id: 'house-terminal',
+  label: 'Terminal (v1)',
+  description: 'Phosphor green on near-black using system mono. The original Wilson terminal.',
+  category: 'House',
+  swatch: ['#0a0d0a', '#7ee787', '#3fb950'],
+  fontLinks: '',
+  css: `
+    body{background:#0a0d0a;color:#7ee787;font-family:'SF Mono',ui-monospace,Menlo,Consolas,monospace}
+    .slide-content{padding:clamp(1.5rem,5vw,4.5rem)}
+    .slide.cover .slide-title{font-weight:400;border-left:6px solid #3fb950;padding-left:.4em}
+    .slide.cover .slide-title::before{content:'$ ';color:#3fb950}
+    .slide.content .slide-title{font-weight:400;color:#3fb950}
+    .slide.content .slide-title::before{content:'> ';color:#7ee787}
+    .slide-body{line-height:1.6}
+    .slide-body code{background:rgba(126,231,135,.1);color:#7ee787}
+    .slide-body pre{background:rgba(126,231,135,.05);border:1px solid rgba(126,231,135,.15);color:#7ee787}
+    .pager{color:#3fb950}.pager::before{content:'[ '}.pager::after{content:' ]'}
+    li::marker{color:#3fb950}
+  `,
+};
+
+const H_MAGAZINE: Template = {
+  id: 'house-magazine',
+  label: 'Magazine (v1)',
+  description: 'Serif headlines with drop letters and editorial whitespace. Press-ready.',
+  category: 'House',
+  swatch: ['#ffffff', '#0d0d0d', '#b41e1e'],
+  fontLinks: '',
+  css: `
+    body{background:#fff;color:#0d0d0d;font-family:Georgia,'Times New Roman',serif}
+    .slide.cover .slide-content{justify-content:center;align-items:center;text-align:center;padding:clamp(2rem,8vw,7rem)}
+    .slide.cover .slide-title{font-weight:900;line-height:.95;letter-spacing:-.04em;max-width:14ch}
+    .slide.content .slide-title{font-weight:900;letter-spacing:-.03em;color:#0d0d0d;border-top:3px solid #b41e1e;padding-top:.3em;align-self:flex-start;display:inline-block}
+    .slide-body{line-height:1.65;max-width:75ch}
+    .slide.content .slide-body>p:first-child::first-letter{font-size:5em;float:left;line-height:.85;padding:.05em .15em .05em 0;color:#b41e1e;font-weight:900}
+    code{background:#f0eeea;font-family:'SF Mono',ui-monospace,Menlo,monospace}
+    pre{background:#f5f3ef;font-family:'SF Mono',ui-monospace,Menlo,monospace}
+    .pager{font-family:Georgia,serif;font-style:italic;color:#b41e1e}
+  `,
+};
+
+const H_GRADIENT: Template = {
+  id: 'house-gradient',
+  label: 'Gradient (v1)',
+  description: 'Violet-to-coral wash with gradient-text headlines. Pitch-deck energy.',
+  category: 'House',
+  swatch: ['#1a0a2e', '#ff6b9d', '#ffc36b'],
+  fontLinks: '',
+  css: `
+    body{background:linear-gradient(135deg,#1a0a2e 0%,#3d1b5e 40%,#7a2d6f 75%,#c64f5a 100%);color:#fff;font-family:system-ui,-apple-system,sans-serif}
+    .slide.cover .slide-content{justify-content:center;text-align:center;align-items:center}
+    .slide.cover .slide-title{font-weight:800;background:linear-gradient(90deg,#ffc36b,#ff6b9d);-webkit-background-clip:text;background-clip:text;color:transparent;max-width:18ch;line-height:1}
+    .slide.content .slide-title{font-weight:800;background:linear-gradient(90deg,#ffc36b,#ff6b9d);-webkit-background-clip:text;background-clip:text;color:transparent;align-self:flex-start;display:inline-block;padding-bottom:.15em}
+    .slide-body{color:#f0e3f0;max-width:80ch}
+    .slide-body code{background:rgba(255,195,107,.15);color:#ffc36b}
+    .slide-body pre{background:rgba(0,0,0,.3);color:#ffc36b}
+    .pager{color:#ffc36b}
+    li::marker{color:#ff6b9d}
+    a{color:#ffc36b}
+  `,
+};
+
+const H_PAPER: Template = {
+  id: 'house-paper',
+  label: 'Paper (v1)',
+  description: 'Architect graph-paper grid in dusty teal. Good for diagrams and rough sketches.',
+  category: 'House',
+  swatch: ['#f3efe5', '#1b3a4b', '#7b9eaa'],
+  fontLinks: '',
+  css: `
+    body{background:#f3efe5;color:#1b3a4b;font-family:system-ui,-apple-system,sans-serif;background-image:linear-gradient(rgba(123,158,170,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(123,158,170,.18) 1px,transparent 1px);background-size:32px 32px}
+    .slide.cover .slide-title{font-weight:700;text-transform:uppercase;letter-spacing:-.02em;border:3px solid #1b3a4b;padding:.4em .6em;align-self:flex-start;display:inline-block;background:#f3efe5}
+    .slide.content .slide-title{font-weight:700;text-transform:uppercase;letter-spacing:.02em;background:#1b3a4b;color:#f3efe5;padding:.2em .5em;align-self:flex-start;display:inline-block}
+    .slide-body{background:rgba(243,239,229,.85);padding:1em 1.2em;border-left:4px solid #7b9eaa;max-width:80ch;align-self:flex-start}
+    code{background:rgba(123,158,170,.2)}
+    pre{background:rgba(27,58,75,.95);color:#f3efe5}pre code{color:#f3efe5}
+    .pager{color:#1b3a4b;font-weight:700;background:#f3efe5;padding:.2em .6em;border:1px solid #1b3a4b}
+  `,
+};
+
+const H_COUNCIL: Template = {
+  id: 'house-council',
+  label: 'Council Signal (v1)',
+  description: 'Glassmorphic dark + ember accent. The household house style — Wilson original.',
+  category: 'House',
+  swatch: ['#0e0a14', '#e8a04a', '#9b7fb8'],
+  fontLinks: '',
+  css: `
+    body{background:radial-gradient(ellipse at 20% 10%,rgba(232,160,74,.12),transparent 50%),radial-gradient(ellipse at 80% 90%,rgba(155,127,184,.12),transparent 55%),#0e0a14;color:#f0e6dc;font-family:system-ui,-apple-system,sans-serif}
+    .slide.cover .slide-content{justify-content:center;text-align:center;align-items:center}
+    .slide.cover .slide-title{font-weight:800;letter-spacing:-.02em;max-width:18ch;background:linear-gradient(180deg,#fff 0%,#e8a04a 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .slide.cover .slide-content::after{content:'';width:clamp(3rem,6vw,5rem);height:2px;background:#e8a04a;margin:clamp(1rem,2vw,2rem) auto 0;border-radius:2px;display:block}
+    .slide.content .slide-title{font-weight:700;color:#e8a04a;text-transform:uppercase;letter-spacing:.06em;padding-bottom:.4em;border-bottom:1px solid rgba(232,160,74,.3);align-self:flex-start;display:inline-block}
+    .slide-body{color:#d8cec4;max-width:85ch;line-height:1.65}
+    .slide-body code{background:rgba(232,160,74,.15);color:#ffc88a;border:1px solid rgba(232,160,74,.2)}
+    .slide-body pre{background:rgba(0,0,0,.4);border:1px solid rgba(232,160,74,.15);color:#f0e6dc}
+    .slide-body blockquote{border-left-color:#9b7fb8;color:#d8cec4}
+    .pager{color:#9b7fb8;letter-spacing:.2em}
+    li::marker{color:#e8a04a}
+    a{color:#e8a04a}
+  `,
+};
+
 export const TEMPLATES: Template[] = [
+  H_MINIMALIST,
+  H_TERMINAL,
+  H_MAGAZINE,
+  H_GRADIENT,
+  H_PAPER,
+  H_COUNCIL,
   T_BOLD_SIGNAL,
   T_ELECTRIC,
   T_VOLTAGE,

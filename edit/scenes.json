@@ -1,88 +1,88 @@
 {
   "version": 1,
-  "generated_at": "2026-05-10T21:06:14+00:00",
+  "generated_at": "2026-05-10T21:23:35+00:00",
   "live_url": "https://mvp.trollefsen.com/2026-05-10-slide-builder/",
-  "estimated_duration_s": 46.0,
+  "estimated_duration_s": 45.5,
   "scenes": [
     {
-      "name": "Land on Slide Builder",
+      "name": "Land on app",
       "action": "wait",
       "ms": 4000,
-      "note": "Let the viewer take in the two-pane layout: markdown editor on the left, live preview on the right, with templates across the top."
+      "note": "Let the viewer take in the split layout: title bar, template gallery, markdown editor, and live preview."
+    },
+    {
+      "name": "Focus deck title",
+      "action": "click",
+      "selector": "input[placeholder=\"Untitled Deck\"]",
+      "ms_after": 3500,
+      "note": "Click into the deck title field to start the primary workflow."
+    },
+    {
+      "name": "Notice title field ready",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Notice the title input is active and ready for a custom deck name."
     },
     {
       "name": "Name the deck",
       "action": "fill",
       "selector": "input[placeholder=\"Untitled Deck\"]",
-      "text": "ClawDash Launch Deck",
+      "text": "ClawDash Product Story",
       "ms_after": 3500,
-      "note": "Replace the generic title to show the deck is editable and branded instantly."
+      "note": "Give the deck a clear product-style title using a household product name."
     },
     {
-      "name": "Observe updated title",
+      "name": "Notice title update",
       "action": "wait",
       "ms": 4000,
-      "note": "Notice the deck title field is now personalized, framing the presentation before we change the content."
+      "note": "Notice the top bar now reflects the new deck title."
     },
     {
-      "name": "Rewrite markdown with concise demo content",
+      "name": "Focus markdown editor",
+      "action": "click",
+      "selector": "textarea[placeholder=\"# Slide 1 title\nBody here\u2026\n\n---\n\n# Slide 2 title\n- bullet\n- bullet\"]",
+      "ms_after": 3500,
+      "note": "Move into the markdown composer where the deck content is authored."
+    },
+    {
+      "name": "Notice editor caret",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Notice the editor is active and the seeded content is ready to be replaced."
+    },
+    {
+      "name": "Replace markdown with product deck",
       "action": "fill",
       "selector": "textarea[placeholder=\"# Slide 1 title\nBody here\u2026\n\n---\n\n# Slide 2 title\n- bullet\n- bullet\"]",
-      "text": "# ClawDash\nIncident response for modern ops teams.\n\n---\n\n## Why teams switch\n- Faster triage\n- Shared timelines\n- Clear postmortems\n\n---\n\n## What ships\n- Live alerts dashboard\n- Runbook links\n- Portable HTML deck export",
-      "ms_after": 4500,
-      "note": "Swap the seeded markdown for a clean three-slide product story so the preview refresh demonstrates the core workflow."
+      "text": "# ClawDash\nTurn raw work into a polished portable deck.\n\n---\n\n## Why teams use it\n- Write in markdown\n- Preview slides live\n- Export one self-contained HTML file\n\n---\n\n## Style presets\nChoose from 13 household presentation styles for dark, light, and specialty looks.\n\n---\n\n## Workflow\nDraft on the left.\nReview on the right.\nShip anywhere offline.\n\n---\n\n## Best for\nProduct updates\nInternal briefings\nFounder storytelling\n\n---\n\n# Ready to share\nDownload the deck as a single HTML file.",
+      "ms_after": 4000,
+      "note": "Paste a concise 6-slide story so the live preview updates into a clear product narrative."
     },
     {
-      "name": "Observe live preview refresh",
+      "name": "Notice live preview refresh",
       "action": "wait",
       "ms": 4000,
-      "note": "Notice the preview updates from markdown automatically without any save button."
+      "note": "Notice the preview has re-rendered from the markdown automatically, showing the first slide of the new deck."
     },
     {
-      "name": "Try the Terminal template",
+      "name": "Choose a contrasting template",
       "action": "click",
-      "selector": "button.card:nth-of-type(2)",
+      "selector": "button.card:nth-of-type(11)",
       "ms_after": 3500,
-      "note": "Switch to a dramatically different theme to show that the same content can be restyled instantly."
+      "note": "Switch from the current light Simployer style to the Neon Cyber template to show how themes change instantly."
     },
     {
-      "name": "Observe Terminal styling",
+      "name": "Notice visual restyle",
       "action": "wait",
       "ms": 4000,
-      "note": "Look for the phosphor-green terminal aesthetic taking over the preview while the markdown stays unchanged."
+      "note": "Notice the same content now appears with a dramatically different visual treatment, proving style presets are decoupled from content."
     },
     {
-      "name": "Try the Magazine template",
-      "action": "click",
-      "selector": "button.card:nth-of-type(3)",
+      "name": "Show preview area",
+      "action": "scroll",
       "ms_after": 3500,
-      "note": "Show a second visual direction to emphasize the six-template gallery."
-    },
-    {
-      "name": "Observe Magazine styling",
-      "action": "wait",
-      "ms": 4000,
-      "note": "Notice the editorial serif treatment and how the deck takes on a press-ready feel."
-    },
-    {
-      "name": "Return to Council Signal",
-      "action": "click",
-      "selector": "button.card.active",
-      "ms_after": 3500,
-      "note": "Settle back on the household house-style theme for the final hero view."
-    },
-    {
-      "name": "Observe house style preview",
-      "action": "wait",
-      "ms": 4000,
-      "note": "The viewer should notice the ember-accented Council Signal theme re-establishing the polished final look."
-    },
-    {
-      "name": "Hover export button",
-      "action": "hover",
-      "selector": "button.primary",
-      "ms_after": 3500,
-      "note": "Call attention to the one-file HTML export without triggering a download during the demo."
+      "y": 520,
+      "note": "Settle the viewport on the editor and preview panels so the transformation is easy to compare."
     }
   ]
 }

@@ -3,8 +3,8 @@ import { parseDeck } from './parse';
 import { TEMPLATES, TEMPLATES_BY_ID, renderDeck, type Template } from './templates';
 import { SEED_MARKDOWN } from './seed';
 
-const DEFAULT_TEMPLATE = 'simployer';
-const CATEGORIES: Template['category'][] = ['Dark', 'Light', 'Specialty'];
+const DEFAULT_TEMPLATE = 'house-council';
+const CATEGORIES: Template['category'][] = ['House', 'Dark', 'Light', 'Specialty'];
 
 const STORAGE_MD = 'slide-builder:md';
 const STORAGE_TEMPLATE = 'slide-builder:template';
