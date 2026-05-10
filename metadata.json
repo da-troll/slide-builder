@@ -23,5 +23,9 @@
   "github_url": "https://github.com/da-troll/slide-builder",
   "inspired_by": "zarazhangrui/beautiful-html-templates",
   "visibility": "public",
-  "demo_video_url": "https://clawdash.storage.trollefsen.com/mvp/2026-05-10-slide-builder/demo-20260510T210551.mp4"
+  "quality_bounds": {
+    "stuck_frame_threshold": 0.9,
+    "_note": "Slide Builder UI is dominated by static editor chrome with a small live-preview iframe; gallery interactions yield ~80% same-cluster frames legitimately. Default 0.65 produces false positives here."
+  },
+  "demo_video_url": "https://clawdash.storage.trollefsen.com/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4"
 }

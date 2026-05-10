@@ -1,60 +1,72 @@
 {
-  "duration_s": 37.0,
+  "duration_s": 44.2,
   "plan_source": "cached:edit/scenes.json",
   "scenes": [
     {
-      "name": "Land on app",
+      "name": "Land on Slide Builder",
       "start_s": 0.0,
       "end_s": 4.0,
-      "note": "Let the viewer take in the split layout: title bar, template gallery, markdown editor, and live preview."
-    },
-    {
-      "name": "Focus deck title",
-      "start_s": 4.0,
-      "end_s": 7.5,
-      "note": "Click into the deck title field to start the primary workflow."
-    },
-    {
-      "name": "Notice title field ready",
-      "start_s": 7.5,
-      "end_s": 11.5,
-      "note": "Notice the title input is active and ready for a custom deck name."
+      "note": "Let the viewer take in the two-pane workflow: templates on top, markdown editor on the left, live preview on the right."
     },
     {
       "name": "Name the deck",
-      "start_s": 11.5,
-      "end_s": 16.21,
-      "note": "Give the deck a clear product-style title using a household product name."
+      "start_s": 4.0,
+      "end_s": 8.655,
+      "note": "Replace the generic title with a concrete deck name to show this is a real working composer."
     },
     {
-      "name": "Notice title update",
-      "start_s": 16.21,
-      "end_s": 20.21,
-      "note": "Notice the top bar now reflects the new deck title."
+      "name": "Observe updated title",
+      "start_s": 8.655,
+      "end_s": 12.655,
+      "note": "Notice the title field now frames the presentation as a polished product deck."
     },
     {
-      "name": "Focus markdown editor",
-      "start_s": 20.21,
-      "end_s": 23.71,
-      "note": "Move into the markdown composer where the deck content is authored."
+      "name": "Replace markdown with product story",
+      "start_s": 12.655,
+      "end_s": 35.415000000000006,
+      "note": "Paste concise multi-slide markdown so the preview can visibly re-render into a product presentation."
     },
     {
-      "name": "Notice editor caret",
-      "start_s": 23.71,
-      "end_s": 27.71,
-      "note": "Notice the editor is active and the seeded content is ready to be replaced."
+      "name": "Observe live deck refresh",
+      "start_s": 35.415000000000006,
+      "end_s": 39.415000000000006,
+      "note": "Notice the preview updates immediately from the markdown, proving the live composer loop."
     },
     {
-      "name": "Replace markdown with product deck",
-      "start_s": 27.71,
-      "end_s": 58.44,
-      "note": "Paste a concise 6-slide story so the live preview updates into a clear product narrative."
+      "name": "Try the Minimalist template",
+      "start_s": 39.415000000000006,
+      "end_s": 42.915000000000006,
+      "note": "Select the first visible house template to show how the same content can be restyled instantly."
     },
     {
-      "name": "Notice live preview refresh",
-      "start_s": 58.44,
-      "end_s": 62.44,
-      "note": "Notice the preview has re-rendered from the markdown automatically, showing the first slide of the new deck."
+      "name": "Observe style swap",
+      "start_s": 42.915000000000006,
+      "end_s": 46.915000000000006,
+      "note": "The preview should now feel lighter and more editorial, while the slide content stays intact."
+    },
+    {
+      "name": "Switch to Terminal Green",
+      "start_s": 46.915000000000006,
+      "end_s": 50.415000000000006,
+      "note": "Choose a markedly different preset to emphasize the range of built-in slide styles."
+    },
+    {
+      "name": "Observe second style change",
+      "start_s": 50.415000000000006,
+      "end_s": 54.415000000000006,
+      "note": "Watch for the deck's typography and color system to change without touching the markdown."
+    },
+    {
+      "name": "Return to the house dark style",
+      "start_s": 54.415000000000006,
+      "end_s": 57.915000000000006,
+      "note": "Bring the demo back to the highlighted Council Signal look for a polished final state."
+    },
+    {
+      "name": "Observe restored house style",
+      "start_s": 57.915000000000006,
+      "end_s": 61.915000000000006,
+      "note": "Notice the rich dark aesthetic reappears, reinforcing that template changes are reversible and instant."
     }
   ]
 }

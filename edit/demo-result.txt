@@ -1,1 +1,1 @@
-DEMO_STUCK:largest_cluster_pct=100.00% > threshold=65.00%; distinct_clusters=1
+DEMO_OK url=https://clawdash.storage.trollefsen.com/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4

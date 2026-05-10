@@ -1,13 +1,13 @@
 {
-  "run_id": "20260510T212314",
+  "run_id": "20260510T213007",
   "project_dir": "/home/eve/projects/nightly-mvps/2026-05-10-slide-builder",
-  "start_ts": 1778448194.8696759,
+  "start_ts": 1778448607.6661806,
   "stages": [
     {
       "stage_id": "preflight",
-      "start_ts": 1778448194.8697877,
-      "end_ts": 1778448201.186227,
-      "duration_s": 6.316,
+      "start_ts": 1778448607.666336,
+      "end_ts": 1778448614.1677597,
+      "duration_s": 6.501,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
@@ -17,9 +17,9 @@
       "extra": {
         "ok": true,
         "status_code": 200,
-        "load_ms": 546,
+        "load_ms": 799,
         "title": "Slide Builder",
-        "interactive_count": 19,
+        "interactive_count": 25,
         "console_errors": [],
         "warnings": [],
         "error": null
@@ -27,8 +27,8 @@
     },
     {
       "stage_id": "auth_handshake",
-      "start_ts": 1778448201.1866155,
-      "end_ts": 1778448201.187872,
+      "start_ts": 1778448614.168105,
+      "end_ts": 1778448614.1693997,
       "duration_s": 0.001,
       "cache_hit": false,
       "sub_agent_id": null,
@@ -42,9 +42,9 @@
     },
     {
       "stage_id": "plan",
-      "start_ts": 1778448201.188076,
-      "end_ts": 1778448215.5760872,
-      "duration_s": 14.388,
+      "start_ts": 1778448614.1696062,
+      "end_ts": 1778448630.5355265,
+      "duration_s": 16.366,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
@@ -53,41 +53,41 @@
       "error": null,
       "extra": {
         "plan_source": "scene_planner:llm",
-        "estimated_duration_s": 45.5,
+        "estimated_duration_s": 46.0,
         "scene_count": 12
       }
     },
     {
       "stage_id": "script",
-      "start_ts": 1778448215.5763364,
-      "end_ts": 1778448221.0171697,
-      "duration_s": 5.441,
+      "start_ts": 1778448630.535681,
+      "end_ts": 1778448634.6756508,
+      "duration_s": 4.14,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
-      "output_size_bytes": 1158,
+      "output_size_bytes": 1051,
       "fallback_chain_walked": [],
       "error": null,
       "extra": {
-        "word_count": 184,
+        "word_count": 170,
         "scene_aware": true
       }
     },
     {
       "stage_id": "tts",
-      "start_ts": 1778448221.0173433,
-      "end_ts": 1778448231.779078,
-      "duration_s": 10.762,
+      "start_ts": 1778448634.6758416,
+      "end_ts": 1778448644.5436735,
+      "duration_s": 9.868,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
-      "output_size_bytes": 1014912,
+      "output_size_bytes": 866304,
       "fallback_chain_walked": [
         {
           "provider": "openai",
           "ok": true,
           "voice": "nova",
-          "bytes": 1014912,
+          "bytes": 866304,
           "speed": 1.1,
           "atempo": 1.0,
           "atempo_meta": {},
@@ -103,117 +103,222 @@
     },
     {
       "stage_id": "loudnorm",
-      "start_ts": 1778448231.7792895,
-      "end_ts": 1778448233.8662636,
-      "duration_s": 2.087,
+      "start_ts": 1778448644.5438914,
+      "end_ts": 1778448646.3895576,
+      "duration_s": 1.846,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
-      "output_size_bytes": 1523564,
+      "output_size_bytes": 1300652,
       "fallback_chain_walked": [],
       "error": null,
       "extra": {
         "ok": true,
         "fallback_used": false,
         "target_lufs": -14.0,
-        "measured_in_i": "-20.39",
-        "measured_in_tp": "-1.35",
+        "measured_in_i": "-20.60",
+        "measured_in_tp": "-1.50",
         "measured_out_lufs": -14.6
       }
     },
     {
       "stage_id": "walkthrough",
-      "start_ts": 1778448233.866643,
-      "end_ts": 1778448281.1748421,
-      "duration_s": 47.308,
+      "start_ts": 1778448646.3899326,
+      "end_ts": 1778448706.7171252,
+      "duration_s": 60.327,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
-      "output_size_bytes": 1867572,
+      "output_size_bytes": 2586253,
       "fallback_chain_walked": [],
       "error": null,
       "extra": {
         "scenes": [
           {
-            "name": "Land on app",
+            "name": "Land on Slide Builder",
             "start_s": 0.0,
             "end_s": 4.0,
-            "note": "Let the viewer take in the split layout: title bar, template gallery, markdown editor, and live preview."
-          },
-          {
-            "name": "Focus deck title",
-            "start_s": 4.0,
-            "end_s": 7.5,
-            "note": "Click into the deck title field to start the primary workflow."
-          },
-          {
-            "name": "Notice title field ready",
-            "start_s": 7.5,
-            "end_s": 11.5,
-            "note": "Notice the title input is active and ready for a custom deck name."
+            "note": "Let the viewer take in the two-pane workflow: templates on top, markdown editor on the left, live preview on the right."
           },
           {
             "name": "Name the deck",
-            "start_s": 11.5,
-            "end_s": 16.21,
-            "note": "Give the deck a clear product-style title using a household product name."
+            "start_s": 4.0,
+            "end_s": 8.655,
+            "note": "Replace the generic title with a concrete deck name to show this is a real working composer."
           },
           {
-            "name": "Notice title update",
-            "start_s": 16.21,
-            "end_s": 20.21,
-            "note": "Notice the top bar now reflects the new deck title."
+            "name": "Observe updated title",
+            "start_s": 8.655,
+            "end_s": 12.655,
+            "note": "Notice the title field now frames the presentation as a polished product deck."
           },
           {
-            "name": "Focus markdown editor",
-            "start_s": 20.21,
-            "end_s": 23.71,
-            "note": "Move into the markdown composer where the deck content is authored."
+            "name": "Replace markdown with product story",
+            "start_s": 12.655,
+            "end_s": 35.415000000000006,
+            "note": "Paste concise multi-slide markdown so the preview can visibly re-render into a product presentation."
           },
           {
-            "name": "Notice editor caret",
-            "start_s": 23.71,
-            "end_s": 27.71,
-            "note": "Notice the editor is active and the seeded content is ready to be replaced."
+            "name": "Observe live deck refresh",
+            "start_s": 35.415000000000006,
+            "end_s": 39.415000000000006,
+            "note": "Notice the preview updates immediately from the markdown, proving the live composer loop."
           },
           {
-            "name": "Replace markdown with product deck",
-            "start_s": 27.71,
-            "end_s": 58.44,
-            "note": "Paste a concise 6-slide story so the live preview updates into a clear product narrative."
+            "name": "Try the Minimalist template",
+            "start_s": 39.415000000000006,
+            "end_s": 42.915000000000006,
+            "note": "Select the first visible house template to show how the same content can be restyled instantly."
           },
           {
-            "name": "Notice live preview refresh",
-            "start_s": 58.44,
-            "end_s": 62.44,
-            "note": "Notice the preview has re-rendered from the markdown automatically, showing the first slide of the new deck."
+            "name": "Observe style swap",
+            "start_s": 42.915000000000006,
+            "end_s": 46.915000000000006,
+            "note": "The preview should now feel lighter and more editorial, while the slide content stays intact."
+          },
+          {
+            "name": "Switch to Terminal Green",
+            "start_s": 46.915000000000006,
+            "end_s": 50.415000000000006,
+            "note": "Choose a markedly different preset to emphasize the range of built-in slide styles."
+          },
+          {
+            "name": "Observe second style change",
+            "start_s": 50.415000000000006,
+            "end_s": 54.415000000000006,
+            "note": "Watch for the deck's typography and color system to change without touching the markdown."
+          },
+          {
+            "name": "Return to the house dark style",
+            "start_s": 54.415000000000006,
+            "end_s": 57.915000000000006,
+            "note": "Bring the demo back to the highlighted Council Signal look for a polished final state."
+          },
+          {
+            "name": "Observe restored house style",
+            "start_s": 57.915000000000006,
+            "end_s": 61.915000000000006,
+            "note": "Notice the rich dark aesthetic reappears, reinforcing that template changes are reversible and instant."
           }
         ],
         "plan_source": "cached:edit/scenes.json",
-        "walkthrough_duration_s": 37.0
+        "walkthrough_duration_s": 44.2
       }
     },
     {
       "stage_id": "stuck_frame",
-      "start_ts": 1778448281.1751556,
-      "end_ts": 1778448283.1546822,
-      "duration_s": 1.98,
+      "start_ts": 1778448706.7174008,
+      "end_ts": 1778448708.8504078,
+      "duration_s": 2.133,
       "cache_hit": false,
       "sub_agent_id": null,
       "retry_count": 0,
       "output_size_bytes": null,
       "fallback_chain_walked": [],
-      "error": "RuntimeError: stuck_frame_detected: largest_cluster_pct=100.00% > threshold=65.00%; distinct_clusters=1",
+      "error": null,
       "extra": {
-        "sampled_frames": 37,
-        "largest_cluster_size": 37,
-        "largest_cluster_pct": 1.0,
-        "distinct_clusters": 1,
-        "threshold": 0.65,
+        "sampled_frames": 44,
+        "largest_cluster_size": 22,
+        "largest_cluster_pct": 0.5,
+        "distinct_clusters": 2,
+        "threshold": 0.9,
         "hash_distance": 8,
-        "is_stuck": true,
-        "skipped_reason": null,
-        "traceback": "Traceback (most recent call last):\n  File \"/opt/apps/video-forge/video_forge/observability.py\", line 49, in stage\n    yield rec\n  File \"/opt/apps/video-forge/video_forge/demo/orchestrator.py\", line 266, in run\n    raise RuntimeError(f\"stuck_frame_detected: {reason}\")\nRuntimeError: stuck_frame_detected: largest_cluster_pct=100.00% > threshold=65.00%; distinct_clusters=1\n"
+        "is_stuck": false,
+        "skipped_reason": null
+      }
+    },
+    {
+      "stage_id": "align",
+      "start_ts": 1778448708.8510206,
+      "end_ts": 1778448713.483703,
+      "duration_s": 4.633,
+      "cache_hit": false,
+      "sub_agent_id": null,
+      "retry_count": 0,
+      "output_size_bytes": 19599,
+      "fallback_chain_walked": [],
+      "error": null,
+      "extra": {
+        "audio_dur_s": 54.14,
+        "asr_word_count": 175,
+        "script_word_count": 170,
+        "alignment_drift_s": 0.126,
+        "fallback_used": false,
+        "speech_onset_s": 0.054,
+        "onset_offset_applied_s": 0.054,
+        "nw_matches": 132,
+        "nw_match_rate": 0.776,
+        "json_path": "/home/eve/projects/nightly-mvps/2026-05-10-slide-builder/edit/transcripts/voiceover.json"
+      }
+    },
+    {
+      "stage_id": "assemble",
+      "start_ts": 1778448713.4840271,
+      "end_ts": 1778448732.6081965,
+      "duration_s": 19.124,
+      "cache_hit": false,
+      "sub_agent_id": null,
+      "retry_count": 0,
+      "output_size_bytes": 4770513,
+      "fallback_chain_walked": [],
+      "error": null,
+      "extra": {
+        "srt_cues": 41,
+        "srt_canonicalizations": 0,
+        "srt_overlap_clips": 20,
+        "srt_min_duration_stretches": 27,
+        "tail_strategy": "hold",
+        "voice_dur": 54.14,
+        "walkthrough_dur": 44.18,
+        "tail_gap_s": 9.96,
+        "held_frame_path": "/home/eve/projects/nightly-mvps/2026-05-10-slide-builder/edit/_last_frame.png",
+        "concat_method": "demuxer_copy",
+        "walkthrough_fps": 25.0,
+        "effective_target_dur": 54.14
+      }
+    },
+    {
+      "stage_id": "assertions",
+      "start_ts": 1778448732.6087184,
+      "end_ts": 1778448735.9233444,
+      "duration_s": 3.315,
+      "cache_hit": false,
+      "sub_agent_id": null,
+      "retry_count": 0,
+      "output_size_bytes": null,
+      "fallback_chain_walked": [],
+      "error": null,
+      "extra": {
+        "demo_path": "/home/eve/projects/nightly-mvps/2026-05-10-slide-builder/edit/demo.mp4",
+        "demo_size_bytes": 4770513,
+        "demo_duration_s": 54.1,
+        "voice_duration_s": 54.14,
+        "srt_cue_count": 41,
+        "first_cue_start_s": 0.054,
+        "last_cue_end_s": 54.014,
+        "cue_drift_s": 0.126,
+        "min_cue_duration_s": 0.32,
+        "max_cue_duration_s": 1.99,
+        "integrated_lufs": -14.7,
+        "passed": true
+      }
+    },
+    {
+      "stage_id": "output",
+      "start_ts": 1778448735.9238162,
+      "end_ts": 1778448735.9320295,
+      "duration_s": 0.008,
+      "cache_hit": false,
+      "sub_agent_id": null,
+      "retry_count": 0,
+      "output_size_bytes": null,
+      "fallback_chain_walked": [],
+      "error": null,
+      "extra": {
+        "shared_versioned_path": "/home/eve/workspaces/shared/images/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4",
+        "shared_latest_path": "/home/eve/workspaces/shared/images/mvp/2026-05-10-slide-builder/demo.mp4",
+        "demo_video_url": "https://mvp.trollefsen.com/media/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4",
+        "run_id": "20260510T213007"
       }
     }
   ]

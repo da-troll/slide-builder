@@ -1,1104 +1,1038 @@
 {
   "language_code": "eng",
-  "audio_duration_secs": 55.84,
-  "text": "Turning rough markdown into a deck usually means rewriting the same content inside presentation software. Slide Builder skips that completely: write on the left, and the deck renders live on the right. It keeps the format dead simple too \u2014 slide breaks with three dashes, titles with # or ## \u2014 so if you already have content in the household\u2019s existing slide convention, it drops straight in.\n\nWhat makes it useful is that the styling decision is fast instead of precious. You can move the same words through six hand-built looks, from Minimalist and Terminal to Council Signal, and see immediately which one fits. Then when it\u2019s ready, export the whole thing as a single HTML file with the CSS and JavaScript baked in. No dependencies, no hosting requirements, no \u201cworks on my machine\u201d problem \u2014 just send the file and the deck opens offline.\n\nIt even keeps your draft, title, and chosen template in localStorage, so you can come back without losing the thread. Slide Builder turns \u201cI have the content\u201d into \u201cI can share the deck\u201d in one pass.",
-  "asr_text": "Turning rough markdown into a deck usually means rewriting the same content inside presentation software. Slide Builder skips that completely. Right on the left, and the deck renders live on the right. It keeps the format dead simple too. Slide breaks with three dashes, titles with hash or hash hash. So if you already have content in the household's existing slide convention, it drops straight in. What makes it useful is that the styling decision is fast instead of precious. You can move the same words through six hand-built looks, from minimalist and terminal, to console signal, and see immediately which one fits. Then when it's ready, export the whole thing as a single HTML file, with the CSS and JavaScript baked in. No dependencies, no hosting requirements, no works-on-my-machine problem. Just send the file, and the deck opens offline. It even keeps your draft, title and chosen template in local storage, so you can come back without losing the thread. Slide Builder turns I have the content, into I can share the deck.",
+  "audio_duration_secs": 54.14,
+  "text": "Turning written notes into a deck usually means fighting formatting, resizing slides, and cleaning up exports. Slide Builder takes plain markdown and turns it into a finished presentation while you write. You type on the left, the deck renders live on the right, and it sticks to the same simple convention people already use for content-to-slides: slide breaks, titles, body copy, done.\n\nThe nice part is you\u2019re not choosing from one or two skins. There are 19 presets here, including six house styles and the canonical content-to-slides looks, all organized in a gallery with named font pairings loaded right into the exported deck. And the output is locked to the viewport, so slides fit phones, tablets, and full-size screens without awkward scrolling or text spilling off the page.\n\nWhen it\u2019s ready, you ship one self-contained HTML file with the CSS and JavaScript embedded, no dependencies, no server round-trip, and it still works offline. That means the distance between rough markdown and a deck you can actually send is basically gone.",
+  "asr_text": "Turning written notes into a deck usually means fighting formatting, resizing slides, and cleaning up exports. Slide Builder takes plain markdown and turns it into a finished presentation while you write. You type on the left, the deck renders live on the right, and it sticks to the same simple convention people already use for content to slides. Slide breaks, titles, body copy, done. The nice part is you're not choosing from one or two skins. There are 19 presets here, including 6 house styles and the canonical content to slides looks, all organized in a gallery, with named font pairings loaded right into the exported deck. And the output is locked to the viewport, so slides fit phones, tablets, and full-size screens without awkward scrolling or text spilling off the page. When it's ready, you ship one self-contained HTML file, with the CSS and JavaScript embedded, no dependencies, no server roundtrip, and it still works offline. That means the distance between rough markdown and a deck you can actually send is basically",
   "words": [
     {
       "text": "Turning",
-      "start": 0.512,
-      "end": 1.272,
+      "start": 0.054,
+      "end": 0.395,
       "type": "word"
     },
     {
-      "text": "rough",
-      "start": 1.272,
-      "end": 1.612,
+      "text": "written",
+      "start": 0.395,
+      "end": 0.794,
       "type": "word"
     },
     {
-      "text": "markdown",
-      "start": 1.612,
-      "end": 2.052,
+      "text": "notes",
+      "start": 0.794,
+      "end": 1.014,
       "type": "word"
     },
     {
       "text": "into",
-      "start": 2.052,
-      "end": 2.272,
+      "start": 1.014,
+      "end": 1.254,
       "type": "word"
     },
     {
       "text": "a",
-      "start": 2.272,
-      "end": 2.632,
+      "start": 1.254,
+      "end": 1.655,
       "type": "word"
     },
     {
       "text": "deck",
-      "start": 2.632,
-      "end": 2.792,
+      "start": 1.655,
+      "end": 1.815,
       "type": "word"
     },
     {
       "text": "usually",
-      "start": 2.632,
-      "end": 3.272,
+      "start": 1.655,
+      "end": 2.275,
       "type": "word"
     },
     {
       "text": "means",
-      "start": 3.272,
-      "end": 3.592,
+      "start": 2.275,
+      "end": 2.534,
       "type": "word"
     },
     {
-      "text": "rewriting",
-      "start": 3.592,
-      "end": 3.952,
+      "text": "fighting",
+      "start": 2.534,
+      "end": 2.874,
       "type": "word"
     },
     {
-      "text": "the",
-      "start": 3.952,
-      "end": 4.192,
+      "text": "formatting,",
+      "start": 2.874,
+      "end": 3.314,
       "type": "word"
     },
     {
-      "text": "same",
-      "start": 4.192,
-      "end": 4.472,
+      "text": "resizing",
+      "start": 3.934,
+      "end": 4.095,
       "type": "word"
     },
     {
-      "text": "content",
-      "start": 4.472,
-      "end": 4.792,
+      "text": "slides,",
+      "start": 4.014,
+      "end": 4.375,
       "type": "word"
     },
     {
-      "text": "inside",
-      "start": 4.792,
-      "end": 5.212,
+      "text": "and",
+      "start": 4.514,
+      "end": 4.715,
       "type": "word"
     },
     {
-      "text": "presentation",
-      "start": 5.212,
-      "end": 5.812,
+      "text": "cleaning",
+      "start": 4.715,
+      "end": 4.875,
       "type": "word"
     },
     {
-      "text": "software.",
-      "start": 5.812,
-      "end": 6.312,
+      "text": "up",
+      "start": 4.835,
+      "end": 5.114,
+      "type": "word"
+    },
+    {
+      "text": "exports.",
+      "start": 5.114,
+      "end": 5.474,
       "type": "word"
     },
     {
       "text": "Slide",
-      "start": 7.352,
-      "end": 7.512,
+      "start": 6.215,
+      "end": 6.375,
       "type": "word"
     },
     {
       "text": "Builder",
-      "start": 7.412,
-      "end": 7.712,
+      "start": 6.274,
+      "end": 6.595,
       "type": "word"
     },
     {
-      "text": "skips",
-      "start": 7.712,
-      "end": 7.952,
+      "text": "takes",
+      "start": 6.595,
+      "end": 6.835,
       "type": "word"
     },
     {
-      "text": "that",
-      "start": 7.952,
-      "end": 8.232,
+      "text": "plain",
+      "start": 6.835,
+      "end": 7.175,
       "type": "word"
     },
     {
-      "text": "completely:",
-      "start": 8.232,
-      "end": 8.692,
-      "type": "word"
-    },
-    {
-      "text": "write",
-      "start": 8.692,
-      "end": 9.472,
-      "type": "word"
-    },
-    {
-      "text": "on",
-      "start": 9.472,
-      "end": 9.652,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 9.652,
-      "end": 9.832,
-      "type": "word"
-    },
-    {
-      "text": "left,",
-      "start": 9.832,
-      "end": 9.992,
+      "text": "markdown",
+      "start": 7.175,
+      "end": 7.514,
       "type": "word"
     },
     {
       "text": "and",
-      "start": 10.212,
-      "end": 10.372,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 10.352,
-      "end": 10.592,
-      "type": "word"
-    },
-    {
-      "text": "deck",
-      "start": 10.592,
-      "end": 10.752,
-      "type": "word"
-    },
-    {
-      "text": "renders",
-      "start": 10.592,
-      "end": 10.872,
-      "type": "word"
-    },
-    {
-      "text": "live",
-      "start": 10.872,
-      "end": 11.172,
-      "type": "word"
-    },
-    {
-      "text": "on",
-      "start": 11.172,
-      "end": 11.332,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 11.292,
-      "end": 11.452,
-      "type": "word"
-    },
-    {
-      "text": "right.",
-      "start": 11.432,
-      "end": 11.592,
-      "type": "word"
-    },
-    {
-      "text": "It",
-      "start": 12.172,
-      "end": 12.332,
-      "type": "word"
-    },
-    {
-      "text": "keeps",
-      "start": 12.252,
-      "end": 12.452,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 12.452,
-      "end": 12.892,
-      "type": "word"
-    },
-    {
-      "text": "format",
-      "start": 12.892,
-      "end": 13.052,
-      "type": "word"
-    },
-    {
-      "text": "dead",
-      "start": 12.892,
-      "end": 13.252,
-      "type": "word"
-    },
-    {
-      "text": "simple",
-      "start": 13.252,
-      "end": 13.452,
-      "type": "word"
-    },
-    {
-      "text": "too",
-      "start": 13.452,
-      "end": 13.872,
-      "type": "word"
-    },
-    {
-      "text": "\u2014",
-      "start": 13.872,
-      "end": 14.272,
-      "type": "word"
-    },
-    {
-      "text": "slide",
-      "start": 14.272,
-      "end": 14.432,
-      "type": "word"
-    },
-    {
-      "text": "breaks",
-      "start": 14.272,
-      "end": 14.492,
-      "type": "word"
-    },
-    {
-      "text": "with",
-      "start": 14.492,
-      "end": 14.712,
-      "type": "word"
-    },
-    {
-      "text": "three",
-      "start": 14.712,
-      "end": 14.992,
-      "type": "word"
-    },
-    {
-      "text": "dashes,",
-      "start": 14.992,
-      "end": 15.432,
-      "type": "word"
-    },
-    {
-      "text": "titles",
-      "start": 15.852,
-      "end": 16.012,
-      "type": "word"
-    },
-    {
-      "text": "with",
-      "start": 15.972,
-      "end": 16.292,
-      "type": "word"
-    },
-    {
-      "text": "#",
-      "start": 16.292,
-      "end": 16.512,
-      "type": "word"
-    },
-    {
-      "text": "or",
-      "start": 16.512,
-      "end": 16.712,
-      "type": "word"
-    },
-    {
-      "text": "##",
-      "start": 16.712,
-      "end": 17.379,
-      "type": "word"
-    },
-    {
-      "text": "\u2014",
-      "start": 17.379,
-      "end": 17.712,
-      "type": "word"
-    },
-    {
-      "text": "so",
-      "start": 17.712,
-      "end": 17.872,
-      "type": "word"
-    },
-    {
-      "text": "if",
-      "start": 17.852,
-      "end": 18.012,
-      "type": "word"
-    },
-    {
-      "text": "you",
-      "start": 17.932,
-      "end": 18.092,
-      "type": "word"
-    },
-    {
-      "text": "already",
-      "start": 18.072,
-      "end": 18.352,
-      "type": "word"
-    },
-    {
-      "text": "have",
-      "start": 18.352,
-      "end": 18.652,
-      "type": "word"
-    },
-    {
-      "text": "content",
-      "start": 18.652,
-      "end": 18.912,
-      "type": "word"
-    },
-    {
-      "text": "in",
-      "start": 18.912,
-      "end": 19.072,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 19.072,
-      "end": 19.232,
-      "type": "word"
-    },
-    {
-      "text": "household\u2019s",
-      "start": 19.232,
-      "end": 19.692,
-      "type": "word"
-    },
-    {
-      "text": "existing",
-      "start": 19.692,
-      "end": 20.032,
-      "type": "word"
-    },
-    {
-      "text": "slide",
-      "start": 20.032,
-      "end": 20.312,
-      "type": "word"
-    },
-    {
-      "text": "convention,",
-      "start": 20.312,
-      "end": 20.752,
-      "type": "word"
-    },
-    {
-      "text": "it",
-      "start": 21.112,
-      "end": 21.332,
-      "type": "word"
-    },
-    {
-      "text": "drops",
-      "start": 21.332,
-      "end": 21.512,
-      "type": "word"
-    },
-    {
-      "text": "straight",
-      "start": 21.512,
-      "end": 21.852,
-      "type": "word"
-    },
-    {
-      "text": "in.",
-      "start": 21.852,
-      "end": 22.092,
-      "type": "word"
-    },
-    {
-      "text": "What",
-      "start": 22.432,
-      "end": 22.852,
-      "type": "word"
-    },
-    {
-      "text": "makes",
-      "start": 22.852,
-      "end": 23.012,
-      "type": "word"
-    },
-    {
-      "text": "it",
-      "start": 23.012,
-      "end": 23.232,
-      "type": "word"
-    },
-    {
-      "text": "useful",
-      "start": 23.232,
-      "end": 23.432,
-      "type": "word"
-    },
-    {
-      "text": "is",
-      "start": 23.432,
-      "end": 23.812,
-      "type": "word"
-    },
-    {
-      "text": "that",
-      "start": 23.812,
-      "end": 23.972,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 23.932,
-      "end": 24.192,
-      "type": "word"
-    },
-    {
-      "text": "styling",
-      "start": 24.192,
-      "end": 24.372,
-      "type": "word"
-    },
-    {
-      "text": "decision",
-      "start": 24.372,
-      "end": 24.752,
-      "type": "word"
-    },
-    {
-      "text": "is",
-      "start": 24.752,
-      "end": 24.992,
-      "type": "word"
-    },
-    {
-      "text": "fast",
-      "start": 24.992,
-      "end": 25.332,
-      "type": "word"
-    },
-    {
-      "text": "instead",
-      "start": 25.332,
-      "end": 25.672,
-      "type": "word"
-    },
-    {
-      "text": "of",
-      "start": 25.672,
-      "end": 25.872,
-      "type": "word"
-    },
-    {
-      "text": "precious.",
-      "start": 25.872,
-      "end": 26.192,
-      "type": "word"
-    },
-    {
-      "text": "You",
-      "start": 26.192,
-      "end": 26.892,
-      "type": "word"
-    },
-    {
-      "text": "can",
-      "start": 26.892,
-      "end": 27.112,
-      "type": "word"
-    },
-    {
-      "text": "move",
-      "start": 27.112,
-      "end": 27.272,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 27.272,
-      "end": 27.432,
-      "type": "word"
-    },
-    {
-      "text": "same",
-      "start": 27.432,
-      "end": 27.672,
-      "type": "word"
-    },
-    {
-      "text": "words",
-      "start": 27.672,
-      "end": 27.832,
-      "type": "word"
-    },
-    {
-      "text": "through",
-      "start": 27.832,
-      "end": 28.052,
-      "type": "word"
-    },
-    {
-      "text": "six",
-      "start": 28.052,
-      "end": 28.372,
-      "type": "word"
-    },
-    {
-      "text": "hand-built",
-      "start": 28.372,
-      "end": 28.732,
-      "type": "word"
-    },
-    {
-      "text": "looks,",
-      "start": 28.732,
-      "end": 29.072,
-      "type": "word"
-    },
-    {
-      "text": "from",
-      "start": 29.492,
-      "end": 29.652,
-      "type": "word"
-    },
-    {
-      "text": "Minimalist",
-      "start": 29.592,
-      "end": 29.972,
-      "type": "word"
-    },
-    {
-      "text": "and",
-      "start": 29.972,
-      "end": 30.272,
-      "type": "word"
-    },
-    {
-      "text": "Terminal",
-      "start": 30.272,
-      "end": 30.512,
-      "type": "word"
-    },
-    {
-      "text": "to",
-      "start": 30.872,
-      "end": 31.032,
-      "type": "word"
-    },
-    {
-      "text": "Council",
-      "start": 31.032,
-      "end": 31.352,
-      "type": "word"
-    },
-    {
-      "text": "Signal,",
-      "start": 31.352,
-      "end": 31.612,
-      "type": "word"
-    },
-    {
-      "text": "and",
-      "start": 31.872,
-      "end": 32.172,
-      "type": "word"
-    },
-    {
-      "text": "see",
-      "start": 32.172,
-      "end": 32.352,
-      "type": "word"
-    },
-    {
-      "text": "immediately",
-      "start": 32.352,
-      "end": 32.752,
-      "type": "word"
-    },
-    {
-      "text": "which",
-      "start": 32.752,
-      "end": 32.972,
-      "type": "word"
-    },
-    {
-      "text": "one",
-      "start": 32.972,
-      "end": 33.212,
-      "type": "word"
-    },
-    {
-      "text": "fits.",
-      "start": 33.212,
-      "end": 33.472,
-      "type": "word"
-    },
-    {
-      "text": "Then",
-      "start": 34.232,
-      "end": 34.392,
-      "type": "word"
-    },
-    {
-      "text": "when",
-      "start": 34.312,
-      "end": 34.472,
-      "type": "word"
-    },
-    {
-      "text": "it\u2019s",
-      "start": 34.412,
-      "end": 34.592,
-      "type": "word"
-    },
-    {
-      "text": "ready,",
-      "start": 34.592,
-      "end": 34.792,
-      "type": "word"
-    },
-    {
-      "text": "export",
-      "start": 35.332,
-      "end": 35.492,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 35.332,
-      "end": 35.492,
-      "type": "word"
-    },
-    {
-      "text": "whole",
-      "start": 35.492,
-      "end": 35.712,
-      "type": "word"
-    },
-    {
-      "text": "thing",
-      "start": 35.712,
-      "end": 35.872,
-      "type": "word"
-    },
-    {
-      "text": "as",
-      "start": 35.852,
-      "end": 36.012,
-      "type": "word"
-    },
-    {
-      "text": "a",
-      "start": 35.972,
-      "end": 36.132,
-      "type": "word"
-    },
-    {
-      "text": "single",
-      "start": 36.132,
-      "end": 36.372,
-      "type": "word"
-    },
-    {
-      "text": "HTML",
-      "start": 36.372,
-      "end": 36.872,
-      "type": "word"
-    },
-    {
-      "text": "file",
-      "start": 36.872,
-      "end": 37.192,
-      "type": "word"
-    },
-    {
-      "text": "with",
-      "start": 37.552,
-      "end": 37.712,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 37.652,
-      "end": 37.892,
-      "type": "word"
-    },
-    {
-      "text": "CSS",
-      "start": 37.892,
-      "end": 38.212,
-      "type": "word"
-    },
-    {
-      "text": "and",
-      "start": 38.212,
-      "end": 38.492,
-      "type": "word"
-    },
-    {
-      "text": "JavaScript",
-      "start": 38.492,
-      "end": 38.912,
-      "type": "word"
-    },
-    {
-      "text": "baked",
-      "start": 38.912,
-      "end": 39.232,
-      "type": "word"
-    },
-    {
-      "text": "in.",
-      "start": 39.232,
-      "end": 39.652,
-      "type": "word"
-    },
-    {
-      "text": "No",
-      "start": 40.092,
-      "end": 40.252,
-      "type": "word"
-    },
-    {
-      "text": "dependencies,",
-      "start": 40.232,
-      "end": 40.652,
-      "type": "word"
-    },
-    {
-      "text": "no",
-      "start": 41.132,
-      "end": 41.452,
-      "type": "word"
-    },
-    {
-      "text": "hosting",
-      "start": 41.452,
-      "end": 41.612,
-      "type": "word"
-    },
-    {
-      "text": "requirements,",
-      "start": 41.572,
-      "end": 42.052,
-      "type": "word"
-    },
-    {
-      "text": "no",
-      "start": 42.592,
-      "end": 42.772,
-      "type": "word"
-    },
-    {
-      "text": "\u201cworks",
-      "start": 42.772,
-      "end": 43.012,
-      "type": "word"
-    },
-    {
-      "text": "on",
-      "start": 43.012,
-      "end": 43.172,
-      "type": "word"
-    },
-    {
-      "text": "my",
-      "start": 43.152,
-      "end": 43.312,
-      "type": "word"
-    },
-    {
-      "text": "machine\u201d",
-      "start": 43.292,
-      "end": 43.572,
-      "type": "word"
-    },
-    {
-      "text": "problem",
-      "start": 43.572,
-      "end": 43.972,
-      "type": "word"
-    },
-    {
-      "text": "\u2014",
-      "start": 43.972,
-      "end": 44.632,
-      "type": "word"
-    },
-    {
-      "text": "just",
-      "start": 44.632,
-      "end": 44.852,
-      "type": "word"
-    },
-    {
-      "text": "send",
-      "start": 44.852,
-      "end": 45.012,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 44.992,
-      "end": 45.352,
-      "type": "word"
-    },
-    {
-      "text": "file",
-      "start": 45.352,
-      "end": 45.512,
-      "type": "word"
-    },
-    {
-      "text": "and",
-      "start": 45.592,
-      "end": 45.752,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 45.692,
-      "end": 45.972,
-      "type": "word"
-    },
-    {
-      "text": "deck",
-      "start": 45.972,
-      "end": 46.132,
-      "type": "word"
-    },
-    {
-      "text": "opens",
-      "start": 45.972,
-      "end": 46.252,
-      "type": "word"
-    },
-    {
-      "text": "offline.",
-      "start": 46.252,
-      "end": 46.652,
-      "type": "word"
-    },
-    {
-      "text": "It",
-      "start": 47.172,
-      "end": 47.372,
-      "type": "word"
-    },
-    {
-      "text": "even",
-      "start": 47.372,
-      "end": 47.592,
-      "type": "word"
-    },
-    {
-      "text": "keeps",
-      "start": 47.592,
-      "end": 47.752,
-      "type": "word"
-    },
-    {
-      "text": "your",
-      "start": 47.752,
-      "end": 47.952,
-      "type": "word"
-    },
-    {
-      "text": "draft,",
-      "start": 47.952,
-      "end": 48.212,
-      "type": "word"
-    },
-    {
-      "text": "title,",
-      "start": 48.692,
-      "end": 48.852,
-      "type": "word"
-    },
-    {
-      "text": "and",
-      "start": 48.712,
-      "end": 48.932,
-      "type": "word"
-    },
-    {
-      "text": "chosen",
-      "start": 48.932,
-      "end": 49.252,
-      "type": "word"
-    },
-    {
-      "text": "template",
-      "start": 49.252,
-      "end": 49.492,
-      "type": "word"
-    },
-    {
-      "text": "in",
-      "start": 49.492,
-      "end": 49.752,
-      "type": "word"
-    },
-    {
-      "text": "localStorage,",
-      "start": 49.752,
-      "end": 50.672,
-      "type": "word"
-    },
-    {
-      "text": "so",
-      "start": 50.672,
-      "end": 50.832,
-      "type": "word"
-    },
-    {
-      "text": "you",
-      "start": 50.832,
-      "end": 50.992,
-      "type": "word"
-    },
-    {
-      "text": "can",
-      "start": 50.932,
-      "end": 51.092,
-      "type": "word"
-    },
-    {
-      "text": "come",
-      "start": 51.092,
-      "end": 51.292,
-      "type": "word"
-    },
-    {
-      "text": "back",
-      "start": 51.292,
-      "end": 51.512,
-      "type": "word"
-    },
-    {
-      "text": "without",
-      "start": 51.512,
-      "end": 51.752,
-      "type": "word"
-    },
-    {
-      "text": "losing",
-      "start": 51.752,
-      "end": 51.992,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 51.992,
-      "end": 52.232,
-      "type": "word"
-    },
-    {
-      "text": "thread.",
-      "start": 52.232,
-      "end": 52.412,
-      "type": "word"
-    },
-    {
-      "text": "Slide",
-      "start": 53.052,
-      "end": 53.412,
-      "type": "word"
-    },
-    {
-      "text": "Builder",
-      "start": 53.412,
-      "end": 53.772,
+      "start": 7.514,
+      "end": 7.795,
       "type": "word"
     },
     {
       "text": "turns",
-      "start": 53.772,
-      "end": 53.972,
+      "start": 7.795,
+      "end": 7.955,
       "type": "word"
     },
     {
-      "text": "\u201cI",
-      "start": 53.972,
-      "end": 54.152,
-      "type": "word"
-    },
-    {
-      "text": "have",
-      "start": 54.152,
-      "end": 54.312,
-      "type": "word"
-    },
-    {
-      "text": "the",
-      "start": 54.252,
-      "end": 54.412,
-      "type": "word"
-    },
-    {
-      "text": "content\u201d",
-      "start": 54.412,
-      "end": 54.732,
+      "text": "it",
+      "start": 7.934,
+      "end": 8.115,
       "type": "word"
     },
     {
       "text": "into",
-      "start": 55.112,
-      "end": 55.292,
+      "start": 8.115,
+      "end": 8.275,
       "type": "word"
     },
     {
-      "text": "\u201cI",
-      "start": 55.292,
-      "end": 55.472,
+      "text": "a",
+      "start": 8.215,
+      "end": 8.655,
       "type": "word"
     },
     {
-      "text": "can",
-      "start": 55.472,
-      "end": 55.652,
+      "text": "finished",
+      "start": 8.655,
+      "end": 8.815,
       "type": "word"
     },
     {
-      "text": "share",
-      "start": 55.652,
-      "end": 55.812,
+      "text": "presentation",
+      "start": 8.655,
+      "end": 9.175,
+      "type": "word"
+    },
+    {
+      "text": "while",
+      "start": 9.175,
+      "end": 9.515,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 9.515,
+      "end": 9.695,
+      "type": "word"
+    },
+    {
+      "text": "write.",
+      "start": 9.695,
+      "end": 9.875,
+      "type": "word"
+    },
+    {
+      "text": "You",
+      "start": 10.455,
+      "end": 10.615,
+      "type": "word"
+    },
+    {
+      "text": "type",
+      "start": 10.595,
+      "end": 10.755,
+      "type": "word"
+    },
+    {
+      "text": "on",
+      "start": 10.755,
+      "end": 11.235,
       "type": "word"
     },
     {
       "text": "the",
-      "start": 55.792,
-      "end": 55.84,
+      "start": 11.235,
+      "end": 11.395,
       "type": "word"
     },
     {
-      "text": "deck\u201d",
-      "start": 55.952,
-      "end": 55.952,
+      "text": "left,",
+      "start": 11.235,
+      "end": 11.395,
       "type": "word"
     },
     {
-      "text": "in",
-      "start": 56.132,
-      "end": 56.132,
+      "text": "the",
+      "start": 11.575,
+      "end": 11.895,
+      "type": "word"
+    },
+    {
+      "text": "deck",
+      "start": 11.895,
+      "end": 12.055,
+      "type": "word"
+    },
+    {
+      "text": "renders",
+      "start": 11.895,
+      "end": 12.155,
+      "type": "word"
+    },
+    {
+      "text": "live",
+      "start": 12.155,
+      "end": 12.415,
+      "type": "word"
+    },
+    {
+      "text": "on",
+      "start": 12.415,
+      "end": 12.575,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 12.555,
+      "end": 12.715,
+      "type": "word"
+    },
+    {
+      "text": "right,",
+      "start": 12.715,
+      "end": 12.875,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 13.095,
+      "end": 13.295,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 13.295,
+      "end": 13.595,
+      "type": "word"
+    },
+    {
+      "text": "sticks",
+      "start": 13.595,
+      "end": 13.755,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 13.595,
+      "end": 13.755,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 13.755,
+      "end": 13.915,
+      "type": "word"
+    },
+    {
+      "text": "same",
+      "start": 13.895,
+      "end": 14.215,
+      "type": "word"
+    },
+    {
+      "text": "simple",
+      "start": 14.215,
+      "end": 14.515,
+      "type": "word"
+    },
+    {
+      "text": "convention",
+      "start": 14.515,
+      "end": 14.855,
+      "type": "word"
+    },
+    {
+      "text": "people",
+      "start": 14.855,
+      "end": 15.175,
+      "type": "word"
+    },
+    {
+      "text": "already",
+      "start": 15.175,
+      "end": 15.575,
+      "type": "word"
+    },
+    {
+      "text": "use",
+      "start": 15.575,
+      "end": 15.775,
+      "type": "word"
+    },
+    {
+      "text": "for",
+      "start": 15.775,
+      "end": 15.995,
+      "type": "word"
+    },
+    {
+      "text": "content-to-slides:",
+      "start": 15.995,
+      "end": 17.375,
+      "type": "word"
+    },
+    {
+      "text": "slide",
+      "start": 17.375,
+      "end": 17.535,
+      "type": "word"
+    },
+    {
+      "text": "breaks,",
+      "start": 17.415,
+      "end": 17.695,
+      "type": "word"
+    },
+    {
+      "text": "titles,",
+      "start": 18.155,
+      "end": 18.315,
+      "type": "word"
+    },
+    {
+      "text": "body",
+      "start": 18.735,
+      "end": 18.934,
+      "type": "word"
+    },
+    {
+      "text": "copy,",
+      "start": 18.934,
+      "end": 19.195,
+      "type": "word"
+    },
+    {
+      "text": "done.",
+      "start": 19.634,
+      "end": 19.794,
+      "type": "word"
+    },
+    {
+      "text": "The",
+      "start": 19.875,
+      "end": 20.395,
+      "type": "word"
+    },
+    {
+      "text": "nice",
+      "start": 20.395,
+      "end": 20.595,
+      "type": "word"
+    },
+    {
+      "text": "part",
+      "start": 20.595,
+      "end": 20.755,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 20.755,
+      "end": 20.915,
+      "type": "word"
+    },
+    {
+      "text": "you\u2019re",
+      "start": 20.895,
+      "end": 21.055,
+      "type": "word"
+    },
+    {
+      "text": "not",
+      "start": 20.995,
+      "end": 21.215,
+      "type": "word"
+    },
+    {
+      "text": "choosing",
+      "start": 21.215,
+      "end": 21.395,
+      "type": "word"
+    },
+    {
+      "text": "from",
+      "start": 21.395,
+      "end": 21.655,
       "type": "word"
     },
     {
       "text": "one",
-      "start": 56.132,
-      "end": 56.132,
+      "start": 21.655,
+      "end": 21.815,
       "type": "word"
     },
     {
-      "text": "pass.",
-      "start": 56.132,
-      "end": 56.132,
+      "text": "or",
+      "start": 21.794,
+      "end": 21.954,
+      "type": "word"
+    },
+    {
+      "text": "two",
+      "start": 21.915,
+      "end": 22.095,
+      "type": "word"
+    },
+    {
+      "text": "skins.",
+      "start": 22.095,
+      "end": 22.375,
+      "type": "word"
+    },
+    {
+      "text": "There",
+      "start": 22.614,
+      "end": 22.915,
+      "type": "word"
+    },
+    {
+      "text": "are",
+      "start": 22.915,
+      "end": 23.075,
+      "type": "word"
+    },
+    {
+      "text": "19",
+      "start": 23.075,
+      "end": 23.475,
+      "type": "word"
+    },
+    {
+      "text": "presets",
+      "start": 23.475,
+      "end": 23.835,
+      "type": "word"
+    },
+    {
+      "text": "here,",
+      "start": 23.835,
+      "end": 24.375,
+      "type": "word"
+    },
+    {
+      "text": "including",
+      "start": 24.475,
+      "end": 24.675,
+      "type": "word"
+    },
+    {
+      "text": "six",
+      "start": 24.675,
+      "end": 25.055,
+      "type": "word"
+    },
+    {
+      "text": "house",
+      "start": 25.055,
+      "end": 25.355,
+      "type": "word"
+    },
+    {
+      "text": "styles",
+      "start": 25.355,
+      "end": 25.614,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 25.614,
+      "end": 25.835,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 25.835,
+      "end": 26.015,
+      "type": "word"
+    },
+    {
+      "text": "canonical",
+      "start": 26.015,
+      "end": 26.315,
+      "type": "word"
+    },
+    {
+      "text": "content-to-slides",
+      "start": 26.315,
+      "end": 27.195,
+      "type": "word"
+    },
+    {
+      "text": "looks,",
+      "start": 27.195,
+      "end": 27.555,
+      "type": "word"
+    },
+    {
+      "text": "all",
+      "start": 27.875,
+      "end": 28.134,
+      "type": "word"
+    },
+    {
+      "text": "organized",
+      "start": 28.134,
+      "end": 28.395,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 28.395,
+      "end": 28.575,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 28.575,
+      "end": 28.975,
+      "type": "word"
+    },
+    {
+      "text": "gallery",
+      "start": 28.975,
+      "end": 29.134,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 29.355,
+      "end": 29.515,
+      "type": "word"
+    },
+    {
+      "text": "named",
+      "start": 29.515,
+      "end": 29.794,
+      "type": "word"
+    },
+    {
+      "text": "font",
+      "start": 29.794,
+      "end": 30.055,
+      "type": "word"
+    },
+    {
+      "text": "pairings",
+      "start": 30.055,
+      "end": 30.434,
+      "type": "word"
+    },
+    {
+      "text": "loaded",
+      "start": 30.434,
+      "end": 30.835,
+      "type": "word"
+    },
+    {
+      "text": "right",
+      "start": 30.835,
+      "end": 31.235,
+      "type": "word"
+    },
+    {
+      "text": "into",
+      "start": 31.235,
+      "end": 31.395,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 31.355,
+      "end": 31.575,
+      "type": "word"
+    },
+    {
+      "text": "exported",
+      "start": 31.575,
+      "end": 31.855,
+      "type": "word"
+    },
+    {
+      "text": "deck.",
+      "start": 31.855,
+      "end": 32.114,
+      "type": "word"
+    },
+    {
+      "text": "And",
+      "start": 32.534,
+      "end": 32.714,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 32.714,
+      "end": 32.934,
+      "type": "word"
+    },
+    {
+      "text": "output",
+      "start": 32.934,
+      "end": 33.094,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 33.034,
+      "end": 33.294,
+      "type": "word"
+    },
+    {
+      "text": "locked",
+      "start": 33.294,
+      "end": 33.454,
+      "type": "word"
+    },
+    {
+      "text": "to",
+      "start": 33.454,
+      "end": 33.614,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 33.594,
+      "end": 33.755,
+      "type": "word"
+    },
+    {
+      "text": "viewport,",
+      "start": 33.714,
+      "end": 34.014,
+      "type": "word"
+    },
+    {
+      "text": "so",
+      "start": 34.374,
+      "end": 34.594,
+      "type": "word"
+    },
+    {
+      "text": "slides",
+      "start": 34.594,
+      "end": 34.814,
+      "type": "word"
+    },
+    {
+      "text": "fit",
+      "start": 34.814,
+      "end": 35.094,
+      "type": "word"
+    },
+    {
+      "text": "phones,",
+      "start": 35.094,
+      "end": 35.454,
+      "type": "word"
+    },
+    {
+      "text": "tablets,",
+      "start": 36.054,
+      "end": 36.214,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 36.194,
+      "end": 36.395,
+      "type": "word"
+    },
+    {
+      "text": "full-size",
+      "start": 36.395,
+      "end": 36.755,
+      "type": "word"
+    },
+    {
+      "text": "screens",
+      "start": 36.755,
+      "end": 37.094,
+      "type": "word"
+    },
+    {
+      "text": "without",
+      "start": 37.094,
+      "end": 37.614,
+      "type": "word"
+    },
+    {
+      "text": "awkward",
+      "start": 37.614,
+      "end": 38.054,
+      "type": "word"
+    },
+    {
+      "text": "scrolling",
+      "start": 38.054,
+      "end": 38.334,
+      "type": "word"
+    },
+    {
+      "text": "or",
+      "start": 38.334,
+      "end": 38.634,
+      "type": "word"
+    },
+    {
+      "text": "text",
+      "start": 38.634,
+      "end": 39.034,
+      "type": "word"
+    },
+    {
+      "text": "spilling",
+      "start": 39.034,
+      "end": 39.474,
+      "type": "word"
+    },
+    {
+      "text": "off",
+      "start": 39.474,
+      "end": 39.694,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 39.694,
+      "end": 40.075,
+      "type": "word"
+    },
+    {
+      "text": "page.",
+      "start": 40.075,
+      "end": 40.234,
+      "type": "word"
+    },
+    {
+      "text": "When",
+      "start": 40.474,
+      "end": 40.794,
+      "type": "word"
+    },
+    {
+      "text": "it\u2019s",
+      "start": 40.794,
+      "end": 40.974,
+      "type": "word"
+    },
+    {
+      "text": "ready,",
+      "start": 40.974,
+      "end": 41.154,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 41.494,
+      "end": 41.654,
+      "type": "word"
+    },
+    {
+      "text": "ship",
+      "start": 41.634,
+      "end": 41.794,
+      "type": "word"
+    },
+    {
+      "text": "one",
+      "start": 41.774,
+      "end": 42.154,
+      "type": "word"
+    },
+    {
+      "text": "self-contained",
+      "start": 42.154,
+      "end": 42.654,
+      "type": "word"
+    },
+    {
+      "text": "HTML",
+      "start": 42.654,
+      "end": 43.174,
+      "type": "word"
+    },
+    {
+      "text": "file",
+      "start": 43.174,
+      "end": 43.534,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 43.794,
+      "end": 43.954,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 43.934,
+      "end": 44.214,
+      "type": "word"
+    },
+    {
+      "text": "CSS",
+      "start": 44.214,
+      "end": 44.395,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 44.395,
+      "end": 44.634,
+      "type": "word"
+    },
+    {
+      "text": "JavaScript",
+      "start": 44.634,
+      "end": 44.974,
+      "type": "word"
+    },
+    {
+      "text": "embedded,",
+      "start": 44.974,
+      "end": 45.294,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 45.774,
+      "end": 45.934,
+      "type": "word"
+    },
+    {
+      "text": "dependencies,",
+      "start": 45.934,
+      "end": 46.334,
+      "type": "word"
+    },
+    {
+      "text": "no",
+      "start": 46.874,
+      "end": 47.114,
+      "type": "word"
+    },
+    {
+      "text": "server",
+      "start": 47.114,
+      "end": 47.274,
+      "type": "word"
+    },
+    {
+      "text": "round-trip,",
+      "start": 47.274,
+      "end": 47.694,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 47.874,
+      "end": 48.134,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 48.134,
+      "end": 48.314,
+      "type": "word"
+    },
+    {
+      "text": "still",
+      "start": 48.314,
+      "end": 48.575,
+      "type": "word"
+    },
+    {
+      "text": "works",
+      "start": 48.575,
+      "end": 48.774,
+      "type": "word"
+    },
+    {
+      "text": "offline.",
+      "start": 48.774,
+      "end": 49.174,
+      "type": "word"
+    },
+    {
+      "text": "That",
+      "start": 49.334,
+      "end": 49.895,
+      "type": "word"
+    },
+    {
+      "text": "means",
+      "start": 49.895,
+      "end": 50.054,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 50.034,
+      "end": 50.274,
+      "type": "word"
+    },
+    {
+      "text": "distance",
+      "start": 50.274,
+      "end": 50.554,
+      "type": "word"
+    },
+    {
+      "text": "between",
+      "start": 50.554,
+      "end": 50.874,
+      "type": "word"
+    },
+    {
+      "text": "rough",
+      "start": 50.874,
+      "end": 51.154,
+      "type": "word"
+    },
+    {
+      "text": "markdown",
+      "start": 51.154,
+      "end": 51.514,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 51.514,
+      "end": 51.694,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 51.694,
+      "end": 51.974,
+      "type": "word"
+    },
+    {
+      "text": "deck",
+      "start": 51.974,
+      "end": 52.134,
+      "type": "word"
+    },
+    {
+      "text": "you",
+      "start": 51.974,
+      "end": 52.134,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 52.114,
+      "end": 52.294,
+      "type": "word"
+    },
+    {
+      "text": "actually",
+      "start": 52.294,
+      "end": 52.714,
+      "type": "word"
+    },
+    {
+      "text": "send",
+      "start": 52.714,
+      "end": 52.895,
+      "type": "word"
+    },
+    {
+      "text": "is",
+      "start": 52.895,
+      "end": 53.255,
+      "type": "word"
+    },
+    {
+      "text": "basically",
+      "start": 53.255,
+      "end": 53.814,
+      "type": "word"
+    },
+    {
+      "text": "gone.",
+      "start": 53.814,
+      "end": 54.014,
       "type": "word"
     }
   ],
   "alignment_meta": {
-    "asr_word_count": 178,
-    "script_word_count": 181,
+    "asr_word_count": 175,
+    "script_word_count": 170,
     "fallback_used": false,
-    "drift_s": 0.292,
-    "speech_onset_s": 0.512,
-    "onset_offset_applied_s": 0.512,
-    "nw_matches": 139,
-    "nw_match_rate": 0.768
+    "drift_s": 0.126,
+    "speech_onset_s": 0.054,
+    "onset_offset_applied_s": 0.054,
+    "nw_matches": 132,
+    "nw_match_rate": 0.776
   }
 }

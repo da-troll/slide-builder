@@ -1,88 +1,88 @@
 {
   "version": 1,
-  "generated_at": "2026-05-10T21:23:35+00:00",
+  "generated_at": "2026-05-10T21:30:30+00:00",
   "live_url": "https://mvp.trollefsen.com/2026-05-10-slide-builder/",
-  "estimated_duration_s": 45.5,
+  "estimated_duration_s": 46.0,
   "scenes": [
     {
-      "name": "Land on app",
+      "name": "Land on Slide Builder",
       "action": "wait",
       "ms": 4000,
-      "note": "Let the viewer take in the split layout: title bar, template gallery, markdown editor, and live preview."
-    },
-    {
-      "name": "Focus deck title",
-      "action": "click",
-      "selector": "input[placeholder=\"Untitled Deck\"]",
-      "ms_after": 3500,
-      "note": "Click into the deck title field to start the primary workflow."
-    },
-    {
-      "name": "Notice title field ready",
-      "action": "wait",
-      "ms": 4000,
-      "note": "Notice the title input is active and ready for a custom deck name."
+      "note": "Let the viewer take in the two-pane workflow: templates on top, markdown editor on the left, live preview on the right."
     },
     {
       "name": "Name the deck",
       "action": "fill",
       "selector": "input[placeholder=\"Untitled Deck\"]",
-      "text": "ClawDash Product Story",
+      "text": "ClawDash Product Deck",
       "ms_after": 3500,
-      "note": "Give the deck a clear product-style title using a household product name."
+      "note": "Replace the generic title with a concrete deck name to show this is a real working composer."
     },
     {
-      "name": "Notice title update",
+      "name": "Observe updated title",
       "action": "wait",
       "ms": 4000,
-      "note": "Notice the top bar now reflects the new deck title."
+      "note": "Notice the title field now frames the presentation as a polished product deck."
     },
     {
-      "name": "Focus markdown editor",
-      "action": "click",
-      "selector": "textarea[placeholder=\"# Slide 1 title\nBody here\u2026\n\n---\n\n# Slide 2 title\n- bullet\n- bullet\"]",
-      "ms_after": 3500,
-      "note": "Move into the markdown composer where the deck content is authored."
-    },
-    {
-      "name": "Notice editor caret",
-      "action": "wait",
-      "ms": 4000,
-      "note": "Notice the editor is active and the seeded content is ready to be replaced."
-    },
-    {
-      "name": "Replace markdown with product deck",
+      "name": "Replace markdown with product story",
       "action": "fill",
       "selector": "textarea[placeholder=\"# Slide 1 title\nBody here\u2026\n\n---\n\n# Slide 2 title\n- bullet\n- bullet\"]",
-      "text": "# ClawDash\nTurn raw work into a polished portable deck.\n\n---\n\n## Why teams use it\n- Write in markdown\n- Preview slides live\n- Export one self-contained HTML file\n\n---\n\n## Style presets\nChoose from 13 household presentation styles for dark, light, and specialty looks.\n\n---\n\n## Workflow\nDraft on the left.\nReview on the right.\nShip anywhere offline.\n\n---\n\n## Best for\nProduct updates\nInternal briefings\nFounder storytelling\n\n---\n\n# Ready to share\nDownload the deck as a single HTML file.",
-      "ms_after": 4000,
-      "note": "Paste a concise 6-slide story so the live preview updates into a clear product narrative."
+      "text": "# ClawDash\nAnalytics that ship every morning.\n\n---\n\n## Why teams use it\n- Wake up to a clean KPI brief\n- Spot movement before standup\n- Share one portable HTML deck\n\n---\n\n## Weekly snapshot\n- Revenue up 12%\n- Activation up 8%\n- Churn down 3%\n\n---\n\n## What makes it fast\n- Markdown in\n- Live preview out\n- One-file export for sharing",
+      "ms_after": 4500,
+      "note": "Paste concise multi-slide markdown so the preview can visibly re-render into a product presentation."
     },
     {
-      "name": "Notice live preview refresh",
+      "name": "Observe live deck refresh",
       "action": "wait",
       "ms": 4000,
-      "note": "Notice the preview has re-rendered from the markdown automatically, showing the first slide of the new deck."
+      "note": "Notice the preview updates immediately from the markdown, proving the live composer loop."
     },
     {
-      "name": "Choose a contrasting template",
+      "name": "Try the Minimalist template",
       "action": "click",
-      "selector": "button.card:nth-of-type(11)",
+      "selector": "button.card ",
       "ms_after": 3500,
-      "note": "Switch from the current light Simployer style to the Neon Cyber template to show how themes change instantly."
+      "note": "Select the first visible house template to show how the same content can be restyled instantly."
     },
     {
-      "name": "Notice visual restyle",
+      "name": "Observe style swap",
       "action": "wait",
       "ms": 4000,
-      "note": "Notice the same content now appears with a dramatically different visual treatment, proving style presets are decoupled from content."
+      "note": "The preview should now feel lighter and more editorial, while the slide content stays intact."
     },
     {
-      "name": "Show preview area",
-      "action": "scroll",
+      "name": "Switch to Terminal Green",
+      "action": "click",
+      "selector": "button.card ",
       "ms_after": 3500,
-      "y": 520,
-      "note": "Settle the viewport on the editor and preview panels so the transformation is easy to compare."
+      "note": "Choose a markedly different preset to emphasize the range of built-in slide styles."
+    },
+    {
+      "name": "Observe second style change",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Watch for the deck's typography and color system to change without touching the markdown."
+    },
+    {
+      "name": "Return to the house dark style",
+      "action": "click",
+      "selector": "button.card.active",
+      "ms_after": 3500,
+      "note": "Bring the demo back to the highlighted Council Signal look for a polished final state."
+    },
+    {
+      "name": "Observe restored house style",
+      "action": "wait",
+      "ms": 4000,
+      "note": "Notice the rich dark aesthetic reappears, reinforcing that template changes are reversible and instant."
+    },
+    {
+      "name": "Hover export button",
+      "action": "hover",
+      "selector": "button.primary",
+      "ms_after": 3500,
+      "note": "Feature the portable export action without triggering a download during the recording."
     }
   ]
 }

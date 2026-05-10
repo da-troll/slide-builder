@@ -1,31 +1,6 @@
-[generate-mvp-demo] starting at 2026-05-10T21:23:14+00:00
+[generate-mvp-demo] starting at 2026-05-10T21:30:07+00:00
 [generate-mvp-demo] project: /home/eve/projects/nightly-mvps/2026-05-10-slide-builder
 [generate-mvp-demo] extra args: --regen-scenes
-click('textarea[placeholder="# Slide 1 title
-Body here…
-
----
-
-# Slide 2 title
-- bullet
-- bullet"]') failed: Locator.click: Unsupported token "BADSTRING" while parsing css selector "textarea[placeholder="# Slide 1 title
-Body here…
-
----
-
-# Slide 2 title
-- bullet
-- bullet"]". Did you mean to CSS.escape it?
-Call log:
-  - waiting for textarea[placeholder="# Slide 1 title
-Body here…
-
----
-
-# Slide 2 title
-- bullet
-- bullet"] >> nth=0
-
 type('textarea[placeholder="# Slide 1 title
 Body here…
 
@@ -51,36 +26,27 @@ Body here…
 - bullet
 - bullet"] >> nth=0
 
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/opt/apps/video-forge/video_forge/demo/orchestrator.py", line 410, in <module>
-    _cli()
-    ~~~~^^
-  File "/opt/apps/video-forge/video_forge/demo/orchestrator.py", line 392, in _cli
-    out = run(args.project, options)
-  File "/opt/apps/video-forge/video_forge/demo/orchestrator.py", line 266, in run
-    raise RuntimeError(f"stuck_frame_detected: {reason}")
-RuntimeError: stuck_frame_detected: largest_cluster_pct=100.00% > threshold=65.00%; distinct_clusters=1
-Error in sys.excepthook:
-Traceback (most recent call last):
-  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 238, in partial_apport_excepthook
-    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
-  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 122, in apport_excepthook
-    report["ExecutableTimestamp"] = str(int(os.stat(binary).st_mtime))
-                                            ~~~~~~~^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/opt/apps/video-forge/-m'
-
-Original exception was:
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/opt/apps/video-forge/video_forge/demo/orchestrator.py", line 410, in <module>
-    _cli()
-    ~~~~^^
-  File "/opt/apps/video-forge/video_forge/demo/orchestrator.py", line 392, in _cli
-    out = run(args.project, options)
-  File "/opt/apps/video-forge/video_forge/demo/orchestrator.py", line 266, in run
-    raise RuntimeError(f"stuck_frame_detected: {reason}")
-RuntimeError: stuck_frame_detected: largest_cluster_pct=100.00% > threshold=65.00%; distinct_clusters=1
-[generate-mvp-demo] orchestrator exit: 1 at 2026-05-10T21:24:43+00:00
+{
+  "project": "2026-05-10-slide-builder",
+  "demo_path": "/home/eve/projects/nightly-mvps/2026-05-10-slide-builder/edit/demo.mp4",
+  "shared_path": "/home/eve/workspaces/shared/images/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4",
+  "demo_video_url": "https://mvp.trollefsen.com/media/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4",
+  "stages": [
+    "preflight",
+    "auth_handshake",
+    "plan",
+    "script",
+    "tts",
+    "loudnorm",
+    "walkthrough",
+    "stuck_frame",
+    "align",
+    "assemble",
+    "assertions",
+    "output"
+  ],
+  "log_path": "/home/eve/projects/nightly-mvps/2026-05-10-slide-builder/edit/pipeline.log.json"
+}
+[generate-mvp-demo] orchestrator exit: 0 at 2026-05-10T21:32:16+00:00
+[generate-mvp-demo] faststart applied to /home/eve/workspaces/shared/images/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4
+DEMO_R2_OK url=https://clawdash.storage.trollefsen.com/mvp/2026-05-10-slide-builder/demo-20260510T213007.mp4
